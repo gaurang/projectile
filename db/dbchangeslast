@@ -1,0 +1,15 @@
+changes for version 1.1 beta
+
+add column certLAbId,certLabUrl to stockprp
+in class also
+change all query to certLabId
+change update tb_stockprp to cert and cert url
+tb module prp change certid and certurl 
+tbsection prp list change certid and cert url
+
+update tb_excelmap set Columnname = 'certLabUrl' where columnname ='certUrl';
+update tb_excelmap set Columnname = 'certLabId' where columnname ='certId';
+
+
+ 
+

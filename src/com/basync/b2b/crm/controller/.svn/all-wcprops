@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/repos/!svn/ver/13/projectile/src/com/basync/b2b/crm/controller
+END
+AccController.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/repos/!svn/ver/416/projectile/src/com/basync/b2b/crm/controller/AccController.java
+END
+CrmController.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/repos/!svn/ver/426/projectile/src/com/basync/b2b/crm/controller/CrmController.java
+END
+PartyActionController.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/repos/!svn/ver/346/projectile/src/com/basync/b2b/crm/controller/PartyActionController.java
+END
+IssueController.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/repos/!svn/ver/457/projectile/src/com/basync/b2b/crm/controller/IssueController.java
+END
+PartyAddAccController.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/repos/!svn/ver/100/projectile/src/com/basync/b2b/crm/controller/PartyAddAccController.java
+END
+PaymentController.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/repos/!svn/ver/322/projectile/src/com/basync/b2b/crm/controller/PaymentController.java
+END
+CrmWebUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/repos/!svn/ver/357/projectile/src/com/basync/b2b/crm/controller/CrmWebUser.java
+END

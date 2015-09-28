@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/repos/!svn/ver/409/projectile/WebContent/WEB-INF/pages/memo
+END
+memoPrintLP.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/repos/!svn/ver/379/projectile/WebContent/WEB-INF/pages/memo/memoPrintLP.jsp
+END
+paymentReport.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repos/!svn/ver/379/projectile/WebContent/WEB-INF/pages/memo/paymentReport.jsp
+END
+stockReport.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/repos/!svn/ver/379/projectile/WebContent/WEB-INF/pages/memo/stockReport.jsp
+END
+invoiceList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/repos/!svn/ver/379/projectile/WebContent/WEB-INF/pages/memo/invoiceList.jsp
+END
+packetCert.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/repos/!svn/ver/379/projectile/WebContent/WEB-INF/pages/memo/packetCert.jsp
+END
+invoice.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/repos/!svn/ver/429/projectile/WebContent/WEB-INF/pages/memo/invoice.jsp
+END
+payments.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/repos/!svn/ver/379/projectile/WebContent/WEB-INF/pages/memo/payments.jsp
+END
+pendingMemo.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/repos/!svn/ver/429/projectile/WebContent/WEB-INF/pages/memo/pendingMemo.jsp
+END
+invoiceReport.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repos/!svn/ver/379/projectile/WebContent/WEB-INF/pages/memo/invoiceReport.jsp
+END
+localInvoice.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/repos/!svn/ver/429/projectile/WebContent/WEB-INF/pages/memo/localInvoice.jsp
+END
+memoPrint.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/repos/!svn/ver/429/projectile/WebContent/WEB-INF/pages/memo/memoPrint.jsp
+END
+memoEdit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/repos/!svn/ver/457/projectile/WebContent/WEB-INF/pages/memo/memoEdit.jsp
+END
+stock.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/repos/!svn/ver/429/projectile/WebContent/WEB-INF/pages/memo/stock.jsp
+END
+stockMix.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/repos/!svn/ver/444/projectile/WebContent/WEB-INF/pages/memo/stockMix.jsp
+END

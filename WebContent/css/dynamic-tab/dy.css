@@ -1,0 +1,87 @@
+@CHARSET "UTF-8";
+
+
+body {
+    font-family: Lucida Sans,Lucida Sans Unicode,Arial,Sans-Serif;
+    font-size: 13px;
+    margin: 0 auto;
+}
+#tabs {
+    list-style: none outside none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+#tabs li {
+    background-color: #BBBBBB;
+    display: block;
+    float: left;
+    margin-right: 5px;
+    padding: 5px;
+}
+#tabs li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#tabs li.current {
+    background-color: #E1E1E1;
+}
+#tabs li.current a {
+    color: #000000;
+    text-decoration: none;
+}
+#tabs li a.remove {
+    color: #FF0000;
+    margin-left: 10px;
+}
+#content {
+    background-color: #E1E1E1;
+}
+#content p {
+    margin: 0;
+    padding: 20px 20px 100px;
+}
+#main {
+    background-color: #F6F6F6;
+    margin: 20px auto 0;
+    overflow: hidden;
+    padding: 30px;
+    width: 900px;
+}
+#wrapper, #doclist {
+    float: left;
+    margin: 0 20px 0 0;
+}
+#doclist {
+    border-right: 1px solid #DCDCDC;
+    width: 150px;
+}
+#doclist ul {
+    list-style: none outside none;
+    margin: 0;
+}
+#doclist li {
+    margin: 10px 0;
+    padding: 0;
+}
+.documents {
+    margin: 0;
+    padding: 0;
+}
+#wrapper {
+    margin-top: 20px;
+    width: 700px;
+}
+#header {
+    background-color: #F6F6F6;
+    margin: 20px auto 0;
+    padding: 30px;
+    position: relative;
+    width: 900px;
+}
+#header h2 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}

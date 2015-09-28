@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+<!-- CONFIGURATION File import -->
+	<bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="location">
+			<value>classpath:appConfig.properties</value>
+		</property>
+	</bean>
+	
+	
+	<bean id="registrationController" class="com.basync.b2b.controller.RegistrationController" >
+		<property name="commandName" value="registrationDO"/>
+		<property name="commandClass" value="com.basync.b2b.dataobjects.RegistrationDO"/>
+		<property name="formView" value="Registration"></property>
+		<property name="successView" value="Success"></property>
+		<property name="registrationDAO" 
+			ref="registrationDAO">
+		</property>
+		
+		<property name="mailSender">
+			<ref bean="mailProducer" />
+		</property>
+		<property name="commonService">
+			<ref bean="commonServiceBean" />
+		</property>
+	</bean>
+	
+	<bean id="dataSource" class="com.basync.b2b.util.ConnectionUtil">
+		<property name="connectionUrl" value="${jdbc2.url}" ></property>
+		<property name="driverClass" value="${jdbc2.driverClassName}"></property>
+		<property name="userName" value="${jdbc2.username}"></property>
+		<property name="password" value="${jdbc2.password}"></property>
+	</bean>
+	
+	<bean id="registrationDAO" class="com.basync.b2b.dao.RegistrationDAOImpl">
+		<property name="dataSource" 
+			ref="dataSource">
+		</property> 
+		
+	</bean>
+	
+	
+	<bean id="UserController" class="com.basync.b2b.controller.UserController" scope="prototype">
+		<property name="userDAO" ref="userDAO"></property>
+	</bean>
+	<bean id="orderController" class="com.basync.b2b.controller.OrderController" scope="prototype">
+		<property name="orderDAO" ref="orderDAO"></property>
+	</bean>
+	<bean id="userDAO" class="com.basync.b2b.dao.UserDAOImpl">
+		<property name="dataSource" ref="dataSource"></property> 
+	</bean>
+	<bean id="orderDAO" class="com.basync.b2b.dao.OrderDAOImpl">
+		<property name="dataSource" ref="dataSource"></property> 
+	</bean>
+	
+	<bean id="rapPriceWebService" class="com.basync.crm.webservice.RapPriceWebService">
+		<property name="genericService">
+			<ref bean="genericServiceBean" />
+		</property>
+		<property name="priceService">
+			<ref bean="priceServiceBean" />
+		</property>
+		
+	</bean>
+	
+	<bean id="stockUploadDAO" class="com.basync.b2b.dao.StockUploadDAOImpl">
+		<property name="dataSource" 
+			ref="dataSource">
+		</property> 
+		<property name="mailSender">
+			<ref bean="mailProducer" />
+		</property>
+		<property name="memoService">
+			<ref bean="memoServiceBean" />
+		</property>
+		<property name="genericService">
+			<ref bean="genericServiceBean" />
+		</property>
+		<property name="priceService">
+			<ref bean="priceServiceBean" />
+		</property>
+		<property name="stockService">
+			<ref bean="stockServiceBean" />
+		</property>
+	</bean>
+	
+	<bean id="stockUploadController" class="com.basync.b2b.controller.StockUploadController" scope="prototype">
+		<property name="stockUploadDAO" 
+			ref="stockUploadDAO">
+		</property>
+		<property name="mailSender">
+			<ref bean="mailProducer" />
+		</property>
+		<property name="genericService">
+			<ref bean="genericServiceBean" />
+		</property>
+		<property name="stockService">
+			<ref bean="stockServiceBean" />
+		</property>
+		<property name="memoService">
+            <ref bean="memoServiceBean" />
+        </property>
+	</bean>
+
+	<bean id="webUserController"
+		class="com.basync.b2b.controller.WebUser">
+		<property name="prpService">
+			<ref bean="prpServiceBean" />
+		</property>
+		<property name="commonService">
+			<ref bean="commonServiceBean" />
+		</property>
+		<property name="mailSender">
+			<ref bean="mailProducer" />
+		</property>
+		<property name="registrationDao">
+			<ref bean="registrationDAO" />
+		</property>
+		<property name="stockService">
+			<ref bean="stockServiceBean" />
+		</property>
+		<property name="userService">
+			<ref bean="userServiceBean" />
+		</property>
+		<property name="partyService">
+			<ref bean="partyServiceBean" />
+		</property>
+	</bean>
+
+	
+	<bean id="defaultController"
+		class="com.basync.b2b.controller.DefaultController">
+		<property name="prpService">
+			<ref bean="prpServiceBean" />
+		</property>
+		<property name="commonService">
+			<ref bean="commonServiceBean" />
+		</property>
+		<property name="mailSender">
+			<ref bean="mailProducer" />
+		</property>
+		<property name="stockService">
+			<ref bean="stockServiceBean" />
+		</property>
+		<property name="userService">
+			<ref bean="userServiceBean" />
+		</property>
+		<property name="partyService">
+			<ref bean="partyServiceBean" />
+		</property>
+	</bean>
+	
+	<bean id="stockController"
+		class="com.basync.b2b.controller.StockController">
+		<property name="prpService">
+			<ref bean="prpServiceBean" />
+		</property>
+		<property name="commonService">
+			<ref bean="commonServiceBean" />
+		</property>
+		<property name="stockService">
+			<ref bean="stockServiceBean" />
+		</property>
+		<property name="mailSender">
+			<ref bean="mailProducer" />
+		</property>
+		
+	</bean>
+	
+	<bean id="issueController"
+		class="com.basync.b2b.crm.controller.IssueController">
+		<property name="commonService">
+			<ref bean="commonServiceBean" />
+		</property>
+		<property name="stockService">
+			<ref bean="stockServiceBean" />
+		</property>
+		<property name="mailSender">
+			<ref bean="mailProducer" />
+		</property>
+		<property name="genericService">
+			<ref bean="genericServiceBean" />
+		</property>
+		<property name="partyService">
+			<ref bean="partyServiceBean" />
+		</property>
+		<property name="stockUploadDAO" 
+			ref="stockUploadDAO">
+		</property>
+		<property name="priceService">
+			<ref bean="priceServiceBean" />
+		</property>
+		<property name="memoService">
+			<ref bean="memoServiceBean" />
+		</property>
+		<property name="prpService">
+			<ref bean="prpServiceBean" />
+		</property>
+	</bean>
+	<bean id="crmController"
+		class="com.basync.b2b.crm.controller.CrmController">
+		<property name="prpService">
+			<ref bean="prpServiceBean" />
+		</property>
+		<property name="commonService">
+			<ref bean="commonServiceBean" />
+		</property>
+		<property name="memoService">
+			<ref bean="memoServiceBean" />
+		</property>
+		<property name="mailSender">
+			<ref bean="mailProducer" />
+		</property>
+		<property name="genericService">
+			<ref bean="genericServiceBean" />
+		</property>
+		<property name="partyService">
+			<ref bean="partyServiceBean" />
+		</property>
+		<property name="stockService">
+			<ref bean="stockServiceBean" />
+		</property>
+		<property name="priceService">
+			<ref bean="priceServiceBean" />
+		</property>
+		<property name="userService">
+			<ref bean="userServiceBean" />
+		</property>
+		<property name="registrationDao">
+			<ref bean="registrationDAO" />
+		</property>
+	</bean>
+	<bean id="crmWebUser"
+		class="com.basync.b2b.crm.controller.CrmWebUser">
+		<property name="commonService">
+			<ref bean="commonServiceBean" />
+		</property>
+		<property name="mailSender">
+			<ref bean="mailProducer" />
+		</property>
+		<property name="genericService">
+			<ref bean="genericServiceBean" />
+		</property>
+		<property name="memoService">
+			<ref bean="memoServiceBean" />
+		</property>
+		
+	</bean>
+	
+	<bean id="partyActionController" class="com.basync.b2b.crm.controller.PartyActionController" >
+		<property name="commandName" value="partyMasterData"/>
+		<property name="commandClass" value="com.basync.b2b.crm.data.PartyMasterData"/>
+		<property name="formView" value="party/partyDetails"></property>
+		<property name="successView" value="Success"></property>
+				
+		<property name="genericService">
+			<ref bean="genericServiceBean" />
+		</property>
+		<property name="partyService">
+			<ref bean="partyServiceBean" />
+		</property>
+		<property name="commonService">
+			<ref bean="commonServiceBean" />
+		</property>
+		<property name="memoService">
+			<ref bean="memoServiceBean" />
+		</property>
+	</bean>
+		
+	<bean id="partyAddAccController" class="com.basync.b2b.crm.controller.PartyAddAccController" >
+		<property name="commandName" value="partyAddMaster"/>
+		<property name="commandClass" value="com.basync.b2b.crm.data.PartyAddMaster"/>
+		<property name="formView" value="party/partyAdd"></property>
+		<property name="successView" value="Success"></property>
+				
+		<property name="genericService">
+			<ref bean="genericServiceBean" />
+		</property>
+		<property name="partyService">
+			<ref bean="partyServiceBean" />
+		</property>
+		<property name="commonService">
+			<ref bean="commonServiceBean" />
+		</property>
+		<property name="memoService">
+			<ref bean="memoServiceBean" />
+		</property>
+		
+	</bean>
+	
+	<bean id="paymentController" class="com.basync.b2b.crm.controller.PaymentController" >
+		<property name="commandName" value="payment"/>
+		<property name="commandClass" value="com.basync.b2b.crm.data.Payment"/>
+		<property name="formView" value="memo/payments"></property>
+		<property name="successView" value="Success"></property>
+				
+		<property name="memoService">
+			<ref bean="memoServiceBean" />
+		</property>
+		<property name="partyService">
+			<ref bean="partyServiceBean" />
+		</property>
+		<property name="commonService">
+			<ref bean="commonServiceBean" />
+		</property>
+		
+	</bean>
+	<bean id="accController"
+		class="com.basync.b2b.crm.controller.AccController">
+		<property name="prpService">
+			<ref bean="prpServiceBean" />
+		</property>
+		<property name="commonService">
+			<ref bean="commonServiceBean" />
+		</property>
+		<property name="memoService">
+			<ref bean="memoServiceBean" />
+		</property>
+		<property name="mailSender">
+			<ref bean="mailProducer" />
+		</property>
+		<property name="genericService">
+			<ref bean="genericServiceBean" />
+		</property>
+		<property name="partyService">
+			<ref bean="partyServiceBean" />
+		</property>
+		<property name="priceService">
+			<ref bean="priceServiceBean" />
+		</property>
+		<property name="repService">
+			<ref bean="repServiceBean" />
+		</property>
+		
+	</bean>
+	
+	<!--filter -->
+	<bean id="webFilter" class="com.basync.b2b.controller.filter.WebHandler">
+		<property name="commonService">
+			<ref bean="commonServiceBean"/>
+		</property>
+	</bean>
+	<bean id="crmFilter" class="com.basync.b2b.crm.controller.filter.CrmHandler">
+		<property name="genericService">
+			<ref bean="genericServiceBean"/>
+		</property>
+	</bean>
+	
+    
+    <bean id="fileUploadController" class="com.basync.b2b.controller.FileUploadController">
+   		 <property name="stockUploadDAO" 
+			ref="stockUploadDAO">
+		 </property>
+        <property name="commandClass" value="com.basync.b2b.data.FileUploadBean"/>
+        <property name="formView" value="fileuploadform"/>
+        <property name="successView" value="redirect:uploadStockFile.html"/>
+    </bean>
+     
+ 
+	<!--MULTIPART resolver -->
+ 	<bean id="multipartResolver"
+        class="org.springframework.web.multipart.commons.CommonsMultipartResolver"/>
+ 
+
+	<!-- View resolver -->
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<!-- <property name="viewClass">
+			<value>org.springframework.web.servlet.view.JstlView</value>
+		</property> -->
+		<property name="prefix">
+			<value>/WEB-INF/pages/</value>
+		</property>
+		<property name="suffix">
+			<value>.jsp</value>
+		</property>
+	</bean>
+    
+    <bean id="localeChangeInterceptor"
+      	class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
+    	<property name="paramName" value="locale"/>
+	</bean>
+	
+	<bean id="themeChangeInterceptor" 
+		class="org.springframework.web.servlet.theme.ThemeChangeInterceptor">
+    	<property name="paramName" value="theme"/>
+    </bean>
+    
+    <!-- end filter -->
+    
+    <bean id="localeResolver"
+		class="org.springframework.web.servlet.i18n.SessionLocaleResolver">
+		<property name="defaultLocale" value="en" />		
+	</bean>
+	
+	<bean id="themeResolver"
+          class="org.springframework.web.servlet.theme.SessionThemeResolver">
+        <property name="defaultThemeName" value="classic"/>
+    </bean>
+	
+	<!--<bean id="stockUploadMapping"
+		class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+
+		<property name="mappings">
+	
+			<props>
+				<prop key="/handleRequestInternal.html">stockUploadController</prop>
+				<prop key="/uploadStock.html">stockUploadController</prop>
+			</props>
+		</property>
+	</bean> -->
+	<bean id="stockUploadMapping"
+		class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="interceptors">
+			<list>
+				<ref local="crmFilter" /> 
+				
+			</list>
+		</property>	
+		<property name="mappings">
+	
+			<props>
+				<prop key="/uploadStockFile.html">stockUploadController</prop>
+				<prop key="/uploadStock.html">stockUploadController</prop>
+				<prop key="/uploadStockMixedManual.html">stockUploadController</prop>
+				<prop key="/uploadStockManual.html">stockUploadController</prop>
+				<prop key="/uploadStockFileCSV.html">stockUploadController</prop>
+				<prop key="/uploadStk.html">stockUploadController</prop>
+				<prop key="/uploadStockFileMixed.html">stockUploadController</prop>
+				<prop key="/editPacketCode.html">stockUploadController</prop>
+			</props>
+		</property>
+	</bean>
+	
+	<!-- default operation mapping -->
+	<bean id="defaultMapping"
+		class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		
+		<property name="mappings">
+	
+			<props>
+				<prop key="/logIn.html">defaultController</prop>
+				<prop key="/index.html">defaultController</prop>
+				<prop key="/logOut.html">defaultController</prop>
+				<prop key="/registration.html">defaultController</prop>
+				<prop key="/users.html">defaultController</prop>
+				<prop key="/userEdit.html">defaultController</prop>
+				<prop key="/userSubmit.html">defaultController</prop>
+				<prop key="/indexAdmin.html">defaultController</prop>
+				<prop key="/logInAdmin.html">defaultController</prop>
+				<prop key="/worldclock.html">defaultController</prop>
+				<prop key="/termsNCond.html">defaultController</prop>
+				<prop key="/forgotpwd.html">defaultController</prop>
+				<prop key="/forgotpwdmail.html">defaultController</prop>
+				<prop key="/diamond_stock.html">defaultController</prop>
+				<prop key="/commentsSend.html">defaultController</prop>
+				<prop key="/cert.html">defaultController</prop>
+				<prop key="/checkUserId.html">defaultController</prop>
+				
+				<prop key="/bkup.html">defaultController</prop>
+				<prop key="/bkupDB.html">defaultController</prop>
+				<prop key="/bkupDel.html">defaultController</prop>
+				<prop key="/restore.html">defaultController</prop>
+				<prop key="/restoreDB.html">defaultController</prop>
+			</props>
+		</property>
+	</bean>
+	
+		<!-- WebUser operation mapping -->
+	<bean id="webUserMapping"
+		class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="interceptors">
+			<list>
+			<ref local="webFilter" />
+				
+			</list>
+		</property>	
+		<property name="mappings">
+	
+			<props>
+				<prop key="/webUserSearch.html">webUserController</prop>
+				<prop key="/registrationView.html">webUserController</prop>
+				<prop key="/contactUs.html">webUserController</prop>
+				<prop key="/payment.html">webUserController</prop>
+				<prop key="/forgotpwd.html">webUserController</prop>
+				<prop key="/changepwd.html">webUserController</prop>
+				<prop key="/updatePwd.html">webUserController</prop>
+				<prop key="/comments.html">webUserController</prop>
+			</props>
+		</property>
+	</bean>
+	
+	
+	
+	<bean id="stockMapping"
+		class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="interceptors">
+			<list>
+				<ref local="webFilter" />
+				
+			</list>
+		</property>	
+		<property name="mappings">
+	
+			<props>
+				<prop key="/stockSearch.html">stockController</prop>
+				<prop key="/stockLoadGrid.html">stockController</prop>
+				<prop key="/addFavorite.html">stockController</prop>
+				<prop key="/myFavorite.html">stockController</prop>
+				<prop key="/myFavoriteGrid.html">stockController</prop>
+				<prop key="/removeFavorite.html">stockController</prop>
+				<prop key="/addToCart.html">stockController</prop>
+				<prop key="/myCart.html">stockController</prop>
+				<prop key="/myCartGrid.html">stockController</prop>
+				<prop key="/submitOrder.html">stockController</prop>
+				<prop key="/makeExcel.html">stockController</prop>
+				<prop key="/myAccount.html">stockController</prop>
+				<prop key="/myAccountGrid.html">stockController</prop>
+				<prop key="/reqShip.html">stockController</prop>
+				<prop key="/invoiceReprint.html">stockController</prop>
+				<prop key="/orderList.html">stockController</prop>
+				<prop key="/packetDetails.html">stockController</prop>
+				
+			</props>
+		</property>
+	</bean>
+	
+    <bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="interceptors">
+			<list>
+				<ref local="webFilter" />
+				
+			</list>
+		</property>	
+        <property name="mappings">
+           <value>
+                /upload.html=fileUploadController
+            </value>
+        </property>
+    </bean>
+    <bean id="registrationMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        
+        <property name="mappings">
+           <value>
+                /RegistrationController.html=registrationController
+            </value>
+        </property>
+    </bean>
+    <bean id="orderMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="interceptors">
+			<list>
+				<ref local="webFilter" />
+				
+			</list>
+		</property>	
+        <property name="mappings">
+        	<props>
+				<prop key="/Orders.html">orderController</prop>
+				<prop key="/OrdersEditSubmit.html">orderController</prop>
+            </props>
+        </property>
+    </bean>
+	
+	<bean id="userMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="interceptors">
+			<list>
+				<ref local="webFilter" />
+				
+			</list>
+		</property>	
+        <property name="mappings">
+           <value>
+                /UserController.html=UserController
+            </value>
+        </property>
+    </bean>
+	
+	
+		<!-- ISSUE MAPPING -->
+	<bean id="issueMapping"
+		class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="interceptors">
+			<list>
+			<ref local="crmFilter" />
+				
+			</list>
+		</property>	
+		<property name="mappings">
+	
+			<props>
+				<prop key="/stockEntry.html">issueController</prop>
+				<prop key="/stockSearchAJAX.html">issueController</prop>
+				<prop key="/clearStock.html">issueController</prop>
+				<prop key="/deletePkt.html">issueController</prop>
+				<prop key="/labForm.html">issueController</prop>
+				<prop key="/labLoad.html">issueController</prop>
+				<prop key="/labSubmit.html">issueController</prop>
+				<prop key="/labLoadRep.html">issueController</prop>
+				<prop key="/stockRapPriceAJAX.html">issueController</prop>
+				<prop key="/pendingStock.html">issueController</prop>
+				<prop key="/similarStk.html">issueController</prop>
+				<prop key="/similarPriceStk.html">issueController</prop>
+				<prop key="/soldStk.html">issueController</prop>
+				<prop key="/transfer.html">issueController</prop>
+				<prop key="/emailToByrAJAX.html">issueController</prop>
+				<prop key="/rapUpload.html">issueController</prop>
+				<prop key="/invalidStock.html">issueController</prop>
+				<prop key="/available.html">issueController</prop>
+				<prop key="/onProcess.html">issueController</prop>
+				<prop key="/masterPrice.html">issueController</prop>
+				<prop key="/addMasterPrice.html">issueController</prop>
+				<prop key="/priceMasterSearchAJAX.html">issueController</prop>
+				<prop key="/priceMasterRapPriceAJAX.html">issueController</prop>
+				<prop key="/stockEntryMix.html">issueController</prop>
+				<prop key="/packetUploadSubmit.html">issueController</prop>
+				<prop key="/stockEntryMixAJAX.html">issueController</prop>
+				<prop key="/parcelDistribute.html">issueController</prop>				
+				<prop key="/parcelSubmit.html">issueController</prop>			
+				<prop key="/pktBarcod.html">issueController</prop>
+				<prop key="/pktBarcodePrint.html">issueController</prop>
+				<prop key="/getBarcode.html">issueController</prop>
+				<prop key="/getBarcodePDF.html">issueController</prop>
+			    <prop key="/stockSplit.html">issueController</prop>
+			    <prop key="/stockEntrySplitMixSubmit.html">issueController</prop>
+			    <prop key="/parcel.html">issueController</prop>
+			    <prop key="/addParcel.html">issueController</prop>	
+			    <prop key="/parcelDetailAJAX.html">issueController</prop>	
+			    <prop key="/parcelList.html">issueController</prop>
+			    <prop key="/mergeMix.html">issueController</prop>	
+			   	<prop key="/mergeMixSubmit.html">issueController</prop> 	
+			   	<prop key="/split.html">issueController</prop> 	
+			   	<prop key="/stockMixList.html">issueController</prop> 	
+				<prop key="/stockMixEdit.html">issueController</prop> 			
+				<prop key="/stockEntryMix2.html">issueController</prop>
+				<prop key="/fixedPacketUpload.html">issueController</prop>
+				<prop key="/mixedPacketSubmit.html">issueController</prop>
+				<prop key="/parcelUpload.html">issueController</prop>
+				
+				<prop key="/packetUpload.html">issueController</prop>
+				<prop key="/fixedPacket.html">issueController</prop>
+				<prop key="/getAllFileList.html">issueController</prop>
+				<prop key="/getImageThumb.html">issueController</prop>
+				<prop key="/certUpload.html">issueController</prop>
+				<prop key="/deleteFile.html">issueController</prop>
+				<prop key="/costPrice.html">issueController</prop>
+				<prop key="/costPriceAJAX.html">issueController</prop>
+				<prop key="/costPriceSubmit.html">issueController</prop>
+			</props>
+		</property>
+	</bean>
+	<bean id="crmMapping"
+		class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="interceptors">
+			<list>
+			<ref local="crmFilter" />
+				
+			</list>	
+		</property>	
+		<property name="mappings">
+	
+			<props>
+				<prop key="/stock.html">crmController</prop>
+				<prop key="/memoLoadGrid.html">crmController</prop>
+				<prop key="/stockMemoColAJAX.html">crmController</prop>
+				<prop key="/partyList.html">crmController</prop>
+				<prop key="/partyListGrid.html">crmController</prop>
+				
+				<prop key="/exportFilesList.html">crmController</prop>
+				<prop key="/exportFileMap.html">crmController</prop>
+				<prop key="/updateFileMap.html">crmController</prop>
+				<prop key="/stockMemoPriceEdit.html">crmController</prop>
+				<prop key="/stockMemoPriceEditAJAX.html">crmController</prop>
+				<prop key="/generateMemo.html">crmController</prop>
+				<prop key="/makeExcelByMapping.html">crmController</prop>
+				<prop key="/memoReturn.html">crmController</prop>
+				<prop key="/memoPrint.html">crmController</prop>
+				<prop key="/memoPrintPDF.html">crmController</prop>
+				<prop key="/memoPrintLP.html">crmController</prop>
+				<prop key="/memoPrintLPPDF.html">crmController</prop>
+
+				<prop key="/memoReport.html">crmController</prop>
+				<prop key="/memoReportGrid.html">crmController</prop>
+				<prop key="/memoSubGrid.html">crmController</prop>
+				
+				<prop key="/memoToInvoice.html">crmController</prop>
+				<prop key="/invPrint.html">crmController</prop>
+				<prop key="/getPartyInv.html">crmController</prop>
+				
+				<prop key="/invReport.html">crmController</prop>
+				<prop key="/invReportGrid.html">crmController</prop>
+				<prop key="/invSubGrid.html">crmController</prop>
+				<prop key="/transferPkts.html">crmController</prop>
+				
+				<prop key="/paymentReport.html">crmController</prop>
+				<prop key="/paymentReportGrid.html">crmController</prop>
+				<prop key="/paymentSubGrid.html">crmController</prop>
+				
+				<prop key="/stockReport.html">crmController</prop>
+				<prop key="/stockReportGrid.html">crmController</prop>
+				
+				<prop key="/stockPriceBulkEditAJAX.html">crmController</prop>
+				<prop key="/invDataAJAX.html">crmController</prop>
+				<prop key="/partyEmailListAC.html">crmController</prop>
+				<prop key="/deleteParty.html">crmController</prop>
+				<prop key="/updateMemoExRate.html">crmController</prop>
+				<prop key="/updateMemoType.html">crmController</prop>
+				
+				<prop key="/partyOSReportGrid.html">crmController</prop>
+				<prop key="/partyOSReport.html">crmController</prop>
+				
+				<prop key="/purchaseReport.html">crmController</prop>
+				<prop key="/purchaseReportGrid.html">crmController</prop>
+				<prop key="/purchaseReportSubGrid.html">crmController</prop>
+				<prop key="/termList.html">crmController</prop>
+				<prop key="/termListGrid.html">crmController</prop>
+				<prop key="/termEdit.html">crmController</prop>
+				<prop key="/termEditSubmit.html">crmController</prop>
+				
+				<prop key="/termDelete.html">crmController</prop>
+				<prop key="/changeCRMPwd.html">crmController</prop>
+				<prop key="/updateCRMPwd.html">crmController</prop>
+				<prop key="/userManager.html">crmController</prop>
+				<prop key="/userListGrid.html">crmController</prop>
+				<prop key="/userManagerEdit.html">crmController</prop>
+				<prop key="/checkCRMUserName.html">crmController</prop>
+				
+				<prop key="/userManagerEditSubmit.html">crmController</prop>
+				<prop key="/roleManager.html">crmController</prop>
+				<prop key="/roleActivitySubmit.html">crmController</prop>
+				<prop key="/demandForm.html">crmController</prop>
+				<prop key="/demandList.html">crmController</prop>
+				<prop key="/demandSave.html">crmController</prop>
+				<prop key="/demandListGrid.html">crmController</prop>
+				<prop key="/demandDetails.html">crmController</prop>
+				<prop key="/comming.html">crmController</prop>
+				
+				<prop key="/webUsers.html">crmController</prop>
+				<prop key="/webUserEdit.html">crmController</prop>
+				<prop key="/webUserSubmit.html">crmController</prop>
+				<prop key="/webRegistrationView.html">crmController</prop>
+				
+				<prop key="/approveMemo.html">crmController</prop>
+				<prop key="/editMemoDetails.html">crmController</prop>
+				
+				<prop key="/memoEdit.html">crmController</prop>
+				<prop key="/saveMemoEdit.html">crmController</prop>
+				<prop key="/stockCertUpload.html">crmController</prop>
+				<prop key="/memoLocalInv.html">crmController</prop>
+				<prop key="/memoListReturn.html">crmController</prop>
+				
+				
+				<prop key="/stockMix.html">crmController</prop>
+				<prop key="/memoLoadGridMix.html">crmController</prop>
+				<prop key="/reloadPartyAJAX.html">crmController</prop>
+
+
+				<prop key="/getExRate.html">crmController</prop>
+
+				<prop key="/getFile.html">crmController</prop>
+				<prop key="/packetCert.html">crmController</prop>
+				<prop key="/packetCertSubmit.html">crmController</prop>
+				<prop key="/packetCertAllLab.html">crmController</prop>
+			    <prop key="/checkCompanyName.html">crmController</prop> 
+			    <prop key="/checkMobileNo.html">crmController</prop>
+                
+
+				<prop key="/dashboard.html">crmController</prop>
+				<prop key="/getExcel.html">crmController</prop>
+
+
+			</props>
+		</property>
+	</bean>
+	
+	
+	<!-- Crm WebUser operation mapping -->
+	<bean id="crmUserMapping"
+		class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="mappings">
+	
+			<props>
+				<prop key="/indexCrm.html">crmWebUser</prop>
+				<prop key="/logInCrm.html">crmWebUser</prop>
+				<prop key="/logOutCrm.html">crmWebUser</prop>
+			</props>
+		</property>
+	</bean>
+	
+	
+	
+	
+	 <bean id="partyActionMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="interceptors">
+			<list>
+			<ref local="crmFilter" /> 
+	        <ref bean="openSessionInViewInterceptor"/>
+			</list>
+		</property>	
+        
+        <property name="mappings">
+           <value>
+                /partyActionController.html=partyActionController
+            </value>
+        </property>
+    </bean>
+     <bean id="partyAddAccMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="interceptors">
+			<list>
+			<ref local="crmFilter" /> 
+	        <ref bean="openSessionInViewInterceptor"/>
+			</list>
+		</property>	
+        
+        <property name="mappings">
+           <value>
+                /partyAddAccController.html=partyAddAccController
+            </value>
+        </property>
+    </bean>
+	<bean id="paymentMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="interceptors">
+			<list>
+			<ref local="crmFilter" /> 
+	        <ref bean="openSessionInViewInterceptor"/>
+			</list>
+		</property>	
+        
+        <property name="mappings">
+           <value>
+                /paymentController.html=paymentController
+            </value>
+        </property>
+    </bean>
+	<bean id="accMapping"
+		class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="interceptors">
+			<list>
+			<ref local="crmFilter" />
+				
+			</list>
+		</property>	
+		<property name="mappings">
+	
+			<props>
+				<prop key="/angadia.html">accController</prop>
+				<prop key="/addUpdateAngadia.html">accController</prop>
+				<prop key="/glAccType.html">accController</prop>
+				<prop key="/addUpdateGlAccType.html">accController</prop>
+				<prop key="/glAccGrp.html">accController</prop>
+				<prop key="/addUpdateGlAccGrp.html">accController</prop>
+				<prop key="/glAcc.html">accController</prop>
+				<prop key="/addUpdateGlAcc.html">accController</prop>
+				<prop key="/bankAcc.html">accController</prop>
+				<prop key="/addBankAcc.html">accController</prop>
+				<prop key="/currency.html">accController</prop>
+				<prop key="/addCurr.html">accController</prop>
+				<prop key="/deleteBankAccount.html">accController</prop>
+				<prop key="/deleteCurrency.html">accController</prop>
+				<prop key="/bankTrf.html">accController</prop>
+				<prop key="/bankTrfAction.html">accController</prop>
+				<prop key="/getBalanceJson.html">accController</prop>
+				<prop key="/pay.html">accController</prop>
+				<prop key="/paymentAction.html">accController</prop>
+				<prop key="/deposit.html">accController</prop>
+				<prop key="/depositAction.html">accController</prop>
+				<prop key="/journal.html">accController</prop>
+				<prop key="/journalAJAX.html">accController</prop>
+				
+				<prop key="/journalEntry.html">accController</prop>
+				<prop key="/reports.html">accController</prop>
+				<prop key="/glRep.html">accController</prop>
+				<prop key="/glRepSubmit.html">accController</prop>
+				<prop key="/saleReport.html">accController</prop>
+				<prop key="/saleReportMain.html">accController</prop>
+				<prop key="/saleReportPartyWise.html">accController</prop>
+				<prop key="/loadPriceHistory.html">accController</prop>
+				<prop key="/bankStatementReport.html">accController</prop>
+				<prop key="/angadiaReport.html">accController</prop>
+				<prop key="/stockCheckingReport.html">accController</prop>
+				<prop key="/searchStkChekRep.html">accController</prop>
+				<prop key="/partyOutStanding.html">accController</prop>
+			    <prop key="/submitPartyOutStanding.html">accController</prop>
+			    <prop key="/showPartyOutStanding.html">accController</prop>
+			    <prop key="/paymentList.html">accController</prop>
+			    <prop key="/clearPayment.html">accController</prop>
+				<prop key="/partyLedger.html">accController</prop>
+				<prop key="/getPartyBankDetails.html">accController</prop>
+			    <prop key="/profitLoss.html">accController</prop>
+				<prop key="/submitProfitLoss.html">accController</prop>
+				<prop key="/getClosingBalBankAJAX.html">accController</prop>
+				<prop key="/getClosingBalAngadiaAJAX.html">accController</prop>
+				<prop key="/getPartyOSAJAX.html">accController</prop>
+				<prop key="/perReport.html">accController</prop>
+                <prop key="/submitPerReport.html">accController</prop>
+                <prop key="/getVendorInvList.html">accController</prop>
+                <prop key="/getPartyOSAJAXWithExrate.html">accController</prop>
+                <prop key="/addPurchaseTrf.html">accController</prop>
+                <prop key="/addSaleTrf.html">accController</prop>
+                <prop key="/salesRevenue.html">accController</prop>
+                <prop key="/otherRevenue.html">accController</prop>
+                <prop key="/goodSolds.html">accController</prop>
+                <prop key="/custBalance.html">accController</prop>
+                <prop key="/custBalanceSubmit.html">accController</prop>
+                <prop key="/supplierBalance.html">accController</prop>
+                <prop key="/supplierBalanceSubmit.html">accController</prop>
+                <prop key="/paymentReportForAccount.html">accController</prop>
+                <prop key="/paymentReportSubmit.html">accController</prop>
+                <prop key="/taxReport.html">accController</prop>
+                <prop key="/taxReportSubmit.html">accController</prop>
+                <prop key="/balanceSheet.html">accController</prop>
+                <prop key="/balanceSheetSubmit.html">accController</prop>
+
+                <prop key="/projectile.html">accController</prop>
+                <prop key="/projectile.html">accController</prop>
+
+                <prop key="/checkingAccount.html">accController</prop>
+                <prop key="/pettyCashAccount.html">accController</prop>
+                <prop key="/accountReceivables.html">accController</prop>
+                <prop key="/accountPayable.html">accController</prop>
+                <prop key="/brokerageReport.html">accController</prop>
+                <prop key="/brokerageReportSubmit.html">accController</prop>
+                <prop key="/rapNetCreation.html">accController</prop>
+                <prop key="/rapNetCreationSubmit.html">accController</prop>
+
+			</props>
+		</property>
+	</bean>
+	
+	
+</beans>

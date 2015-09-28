@@ -1,0 +1,73 @@
+##########################################
+# TAG Application Root
+# Used while sending email, don't forget the trailing slash
+##########################################
+b2b.application.root=http://basync.com/
+b2b.image.root=http://basync.com/
+
+b2b.server.url=http://basync.com/
+##########################################
+# b2b Product Info
+# Used as configuration at various locations
+##########################################
+
+##########################################
+# admin home page, @...@ will be replaced by ant build-cc-uat.xml
+##########################################
+b2b.app.version=1
+b2b.app.cc.build.svn.revision=@SVNrevision@
+b2b.app.cc.build.label=@CCbuildLabel@
+b2b.app.cc.build.date=@CCbuildDate@
+
+b2b.error.email=info@basync.com
+b2b.admin.email=admin@basync.com
+b2b.sales.email=info@basync.com
+b2b.owner.email=admin@basync.com
+b2b.upload.path=/home/gaurang/hridhesh/upload/
+#b2b.upload.path=G:/
+b2b.upload.filename=myfile
+
+b2b.download.companyCode=HRC
+b2b.download.company=H Ridhesh & Co.
+b2b.download.filename=stock
+b2b.download.filepath=/home/gaurang/hridhesh/download/
+b2b.download.priceList.filename=rapPrice_
+b2b.download.priceList.type=xml
+
+b2b.download.priceList.childnode.count=5
+b2b.download.priceList.childnode.1=Color
+b2b.download.priceList.childnode.2=Clarity
+b2b.download.priceList.childnode.3=HighSize
+b2b.download.priceList.childnode.4=LowSize
+b2b.download.priceList.childnode.5=Price
+
+b2b.db.restore.user=admin
+b2b.db.restore.pass=hrcd1am0nds
+####################### Memo Properties
+b2b.memo.status.ids=1, 2, 3
+b2b.memo.status.codes='MA', 'MI', 'MP'
+
+#############Purchase Format Company Details
+b2b.issue.companyFormat=BASYNC
+
+
+b2b.rapnet.url=http://technet.rapaport.com/HTTP/RapLink/download.aspx?SellerLogin=55229,32541,11120,67100,20996,32640,31449,30910,66658&SortBy=Owner&White=1&Fancy=1&Programmatically=yes&Version=1.0
+b2b.rapnet.auth.url=https://technet.rapaport.com/HTTP/Authenticate.aspx
+b2b.rapnet.username=71376
+b2b.rapnet.password=111gandhi
+b2b.rapnet.uplaodURL=http://technet.rapaport.com/HTTP/Upload/Upload.aspx?Method=string
+b2b.price.roundoff.total=n
+
+b2b.memo.tax=0
+b2b.memo.shipcost.type=$
+b2b.memo.shipcost.min.amount=10000
+b2b.memo.shipcost=100
+b2b.memo.expences=0
+
+##System config
+max-users=20
+
+
+b2b.pktcode.seq=10000
+b2b.pktcode.auto=Y
+ 

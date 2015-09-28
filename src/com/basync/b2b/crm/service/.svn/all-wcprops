@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/repos/!svn/ver/13/projectile/src/com/basync/b2b/crm/service
+END
+IPartyService.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/repos/!svn/ver/345/projectile/src/com/basync/b2b/crm/service/IPartyService.java
+END
+IGenericService.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/repos/!svn/ver/426/projectile/src/com/basync/b2b/crm/service/IGenericService.java
+END
+IPriceService.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/repos/!svn/ver/22/projectile/src/com/basync/b2b/crm/service/IPriceService.java
+END
+IMemoService.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/repos/!svn/ver/397/projectile/src/com/basync/b2b/crm/service/IMemoService.java
+END
+IRepService.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repos/!svn/ver/415/projectile/src/com/basync/b2b/crm/service/IRepService.java
+END

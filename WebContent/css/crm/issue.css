@@ -1,0 +1,11 @@
+
+#stockMain{
+	background-color: #000000;
+}
+#stockMain th{
+	font-weight: bold;
+	background-color: #cccccc;
+}
+#stockMain td{
+	background-color: #ffffff;
+}

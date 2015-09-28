@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/repos/!svn/ver/409/projectile/src/com/basync/b2b/crm/data/rowExtract
+END
+PartyGLRowMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/repos/!svn/ver/153/projectile/src/com/basync/b2b/crm/data/rowExtract/PartyGLRowMapper.java
+END
+GoodCostDataExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/repos/!svn/ver/162/projectile/src/com/basync/b2b/crm/data/rowExtract/GoodCostDataExtractor.java
+END
+QueryCodeDescriptionRowExtract.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/repos/!svn/ver/330/projectile/src/com/basync/b2b/crm/data/rowExtract/QueryCodeDescriptionRowExtract.java
+END
+CrmUserSessionRowMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/repos/!svn/ver/409/projectile/src/com/basync/b2b/crm/data/rowExtract/CrmUserSessionRowMapper.java
+END
+OrderMasterListRowMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/repos/!svn/ver/426/projectile/src/com/basync/b2b/crm/data/rowExtract/OrderMasterListRowMapper.java
+END
+AccountDataExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/repos/!svn/ver/139/projectile/src/com/basync/b2b/crm/data/rowExtract/AccountDataExtractor.java
+END
+PaymentRowExtract.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/repos/!svn/ver/247/projectile/src/com/basync/b2b/crm/data/rowExtract/PaymentRowExtract.java
+END
+AngRepTransRowExtract.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/repos/!svn/ver/13/projectile/src/com/basync/b2b/crm/data/rowExtract/AngRepTransRowExtract.java
+END
+BankAccountRowMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/repos/!svn/ver/49/projectile/src/com/basync/b2b/crm/data/rowExtract/BankAccountRowMapper.java
+END
+PurchaseMasterRowExtract.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/repos/!svn/ver/350/projectile/src/com/basync/b2b/crm/data/rowExtract/PurchaseMasterRowExtract.java
+END
+GlRepDataRowExtract.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/repos/!svn/ver/319/projectile/src/com/basync/b2b/crm/data/rowExtract/GlRepDataRowExtract.java
+END
+SaleReportExtract.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/repos/!svn/ver/426/projectile/src/com/basync/b2b/crm/data/rowExtract/SaleReportExtract.java
+END
+PaymentDetailRowMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/repos/!svn/ver/409/projectile/src/com/basync/b2b/crm/data/rowExtract/PaymentDetailRowMapper.java
+END
+UserActivityRowMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/repos/!svn/ver/339/projectile/src/com/basync/b2b/crm/data/rowExtract/UserActivityRowMapper.java
+END
+PercentageDataExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/repos/!svn/ver/193/projectile/src/com/basync/b2b/crm/data/rowExtract/PercentageDataExtractor.java
+END
+AngadiaMasterRowExtract.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/repos/!svn/ver/210/projectile/src/com/basync/b2b/crm/data/rowExtract/AngadiaMasterRowExtract.java
+END
+PacketLabReturnRowExtract.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/repos/!svn/ver/110/projectile/src/com/basync/b2b/crm/data/rowExtract/PacketLabReturnRowExtract.java
+END
+PartyOutStandingRowExtract.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/repos/!svn/ver/42/projectile/src/com/basync/b2b/crm/data/rowExtract/PartyOutStandingRowExtract.java
+END
+ThreeStringsRowMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/repos/!svn/ver/350/projectile/src/com/basync/b2b/crm/data/rowExtract/ThreeStringsRowMapper.java
+END
+ExcelFileTypesRowMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/repos/!svn/ver/193/projectile/src/com/basync/b2b/crm/data/rowExtract/ExcelFileTypesRowMapper.java
+END
+QueryMapUpperRowExtract.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/repos/!svn/ver/339/projectile/src/com/basync/b2b/crm/data/rowExtract/QueryMapUpperRowExtract.java
+END
+BankTransRowExtract.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/repos/!svn/ver/13/projectile/src/com/basync/b2b/crm/data/rowExtract/BankTransRowExtract.java
+END
+StockCheckRepRowExtract.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/repos/!svn/ver/42/projectile/src/com/basync/b2b/crm/data/rowExtract/StockCheckRepRowExtract.java
+END
+PurchaseParcelRowExtract.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/repos/!svn/ver/193/projectile/src/com/basync/b2b/crm/data/rowExtract/PurchaseParcelRowExtract.java
+END

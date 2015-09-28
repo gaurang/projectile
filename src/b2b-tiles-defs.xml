@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+  <definition name="tag.style.classic.head" template="/layouts/classic/head.jsp">
+    <put-attribute name="head_title" value="The Affiliate Gateway" />
+	<put-attribute name="head_meta" value="" />
+	<put-attribute name="head_css" value="" />
+	<put-attribute name="head_javascript" value="" />
+  </definition>
+  
+  <definition name="tag.style.classic.body" template="/layouts/classic/body.jsp">
+	<put-attribute name="body_header" value="tag.style.classic.header" />
+    <put-attribute name="body_content" value="tag.style.classic.content" />
+    <put-attribute name="body_footer" value="tag.style.classic.footer" />
+  </definition>
+
+  <definition name="tag.style.classic.header" template="/layouts/classic/header.jsp">
+	<put-attribute name="header_home_url" value="index.html" />    
+    <put-attribute name="header_menu_item_main" value="" />
+    <put-attribute name="header_menu_item_sub" value="" />
+  </definition>
+
+  <definition name="tag.style.classic.content" template="/layouts/classic/content.jsp">
+	<put-attribute name="content" value="" />
+	<put-attribute name="content_class" value="" />
+	<put-attribute name="content_column1_class" value="" />
+    <put-attribute name="content_column1_content" value="" />
+	<put-attribute name="content_column2_class" value="" />
+	<put-attribute name="content_column2_content" value="" />
+  </definition>
+
+  <definition name="tag.style.classic.footer" template="/layouts/classic/footer.jsp">
+    <put-attribute name="footer_content" value="" />
+  </definition>
+
+</tiles-definitions>

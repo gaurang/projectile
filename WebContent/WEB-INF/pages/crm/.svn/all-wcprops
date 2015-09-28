@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/repos/!svn/ver/409/projectile/WebContent/WEB-INF/pages/crm
+END
+termList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/repos/!svn/ver/409/projectile/WebContent/WEB-INF/pages/crm/termList.jsp
+END
+roleManage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/repos/!svn/ver/390/projectile/WebContent/WEB-INF/pages/crm/roleManage.jsp
+END
+changePwd.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/repos/!svn/ver/457/projectile/WebContent/WEB-INF/pages/crm/changePwd.jsp
+END
+restore.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/repos/!svn/ver/378/projectile/WebContent/WEB-INF/pages/crm/restore.jsp
+END
+fileMap.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/repos/!svn/ver/378/projectile/WebContent/WEB-INF/pages/crm/fileMap.jsp
+END
+userManager.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/repos/!svn/ver/409/projectile/WebContent/WEB-INF/pages/crm/userManager.jsp
+END
+exportFiles.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/repos/!svn/ver/409/projectile/WebContent/WEB-INF/pages/crm/exportFiles.jsp
+END
+userEdit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/repos/!svn/ver/378/projectile/WebContent/WEB-INF/pages/crm/userEdit.jsp
+END
+termEdit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/repos/!svn/ver/378/projectile/WebContent/WEB-INF/pages/crm/termEdit.jsp
+END

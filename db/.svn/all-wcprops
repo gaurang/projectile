@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/repos/!svn/ver/57/projectile/db
+END
+dbchanges.sql
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/repos/!svn/ver/436/projectile/db/dbchanges.sql
+END
+dbdata.sql
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/repos/!svn/ver/425/projectile/db/dbdata.sql
+END

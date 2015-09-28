@@ -1,0 +1,724 @@
+# The block of messages below are only found in this file. If you'd
+# like to override them for other languages, simply add the keys
+# to the other resource bundles.
+
+# General
+webapp.name=B2B
+webapp.title=Rajgir Gems
+webapp.tagline=Your gateway to more profitable relationships
+webapp.messaging=1
+# Common Strings
+common.currencySymbol=$
+
+rssfeed.privacy=http://10.30.1.159/node/15/feed
+rssfeed.disclaimer=http://10.30.1.159/node/13/feed
+rssfeed.copyright=http://10.30.1.159/node/11/feed
+rssfeed.accessibility=http://10.30.1.159/node/14/feed
+
+
+
+# Status labels
+status.0=Disabled
+status.1=Active
+status.disabled=Disabled
+status.active=Active
+
+# Common button labels
+button.submit=Submit
+button.go=GO
+button.more=More
+button.remove=Remove
+
+#Common text
+common.pageTitle=The Rajgir Gems | {0}
+common.jcaptcha.captchaReload=Click on the image to refresh image
+common.jcaptcha.image=Captcha Image
+common.success.timeout.message=This page will disappear within 3 seconds, or you can click <a href="{0}" ><font color="red">here</font></a> instead!
+common.success.timeout.message2=This page will disappear within {0} seconds, or you can click <a href="{1}" ><font color="red">here</font></a> instead!
+common.select=--Select--
+common.title.mr=Mr.
+common.title.miss=Miss.
+common.title.ms=Ms.
+common.title.mrs=Mrs.
+common.yes=Yes
+common.no=No
+common.country=Country
+
+# Common menu text
+common.menu.affiliate=Affiliate
+common.menu.signUp=Sign Up
+common.menu.merchant=Merchant
+common.menu.enquire=Enquire
+common.menu.news=News
+common.menu.technology=Technology
+common.menu.services=Services
+common.menu.clients=Clients
+common.menu.aboutUs=About Us
+common.menu.contactUs=Contact Us
+
+# Login box
+login.title=Login
+login.username=Username
+login.password=Password
+login.button.title=Login
+login.forgot=Forgotten password?
+login.error.username=Please enter Username
+login.error.password=Please enter Password
+
+# Forgot password page
+forgotPassword.heading.step1=Forgot Password
+forgotPassword.username=Username
+forgotPassword.nextStep=Next Step
+
+forgotPassword.heading.step2=Security Question
+forgotPassword.securityQuestion=Security Question
+forgotPassword.enterAnswer=Enter Answer
+forgotPassword.continue=Continue
+
+forgotPassword.heading.step3=Reset Password Success
+forgotPassword.success=Username: ({0}) , Your new password has been sent to your Email!
+
+
+# Contact Us page content
+contactus.heading=Speak to the industry experts
+contactus.para1=If you have any questions, comments or issues with The Affiliate Gateway, please use the form below to get in touch. Our dedicated specialists aim to respond to your enquiry within 48 hours.
+contactus.para2=Technology built around you.
+contactus.para3=We constantly strive to improve our service would love to hear any feedback that you might have. After all, building better relationships is what we're all about.
+contactus.para4=If you are an existing merchant or affiliate please contact your account manager directly.
+
+contactus.form.name=Your Name
+contactus.form.email=Email Address
+contactus.form.subject=Subject
+contactus.form.enquiry=Enquiry
+contactus.form.verificationCode=Enter Code Above
+contactus.form.captchaReload=Click on the image to refresh image
+
+contactus.form.error.name.required=Please enter your name
+contactus.form.error.email.required=Please enter your email
+contactus.form.error.email.invalid=Please enter valid email
+contactus.form.error.subject.required=Please enter your subject
+contactus.form.error.enquiry.required=Please enter your enquiry
+contactus.form.error.enquiry.maxlength=Enquiry content is too long (Max characters 10,000)
+contactus.form.error.verificationCode.required=Please enter verification code
+
+contactus.success.title=Contact Us
+contactus.success.message=Thank you for contacting TAG. We will be responding shortly.!
+
+# Merchant Sign Up page content
+merchantsignup.heading=Join The Affiliate Gateway as a Merchant
+merchantsignup.para1=Whatever your business, The Affiliate Gateway is dedicated to helping you develop more profitable relationships through our world-class experience and expertise.
+merchantsignup.para2=Please use the form below or call +44 207 422 5511 to speak with our affiliate marketing consultants. 
+
+merchantsignup.form.surname=Surname
+merchantsignup.form.name=Name
+merchantsignup.form.jobtitle=Job Title
+merchantsignup.form.phone=Phone Number
+merchantsignup.form.email=Email Address
+merchantsignup.form.subject=Subject
+merchantsignup.form.enquiry=Enquiry
+merchantsignup.form.verificationCode=Enter Code
+
+merchantsignup.form.error.surname.required=Please enter you surname
+merchantsignup.form.error.name.required=Please enter your name
+merchantsignup.form.error.jobtitle.required=Please enter your job title
+merchantsignup.form.error.phone.required=Please enter phone number
+merchantsignup.form.error.phone.invalid=Phone number must be numeric
+merchantsignup.form.error.email.required=Please enter your email
+merchantsignup.form.error.email.invalid=Invalid email address format
+merchantsignup.form.error.subject.required=Please enter your subject
+merchantsignup.form.error.enquiry.required=Please enter your enquiry
+merchantsignup.form.error.enquiry.maxlength=Enquiry content is too long (Max characters 10,000)
+merchantsignup.form.error.verificationCode.required=Please enter verification code
+
+merchantsignup.success.title=Merchant Enquiry
+merchantsignup.success.message=Thank you for contacting TAG. We will respond to your enquiry shortly!
+
+# Affiliate Sign Up page content
+affiliateSignUp.heading=Affiliate Registration
+affiliateSignUp.para1=If you are interested in working alongside us in delivering high quality performance for our merchants, then we would love for you to sign up and join us at TAG.
+affiliateSignUp.para2=Once registered, you will need to validate the email address that you have provided before you can login.
+
+affiliateSignUp.stage1=Stage 1: General Info
+affiliateSignUp.stage2=Stage 2: Billing Info
+affiliateSignUp.stage3=Stage 3: Terms & Conditions
+affiliateSignUp.nextStage=Next Stage
+affiliateSignUp.goBack=Next Stage
+affiliateSignUp.useRegistrationDetails=Use Registration Details
+affiliateSignUp.submitRegistration=Submit Registration
+
+affiliateSignUp.form.companyName=Company Name
+affiliateSignUp.form.companyRegistrationNo=Company Reg. No.
+affiliateSignUp.form.title=Title
+affiliateSignUp.form.businessContactName=Name
+affiliateSignUp.form.bussinessBuildingName=Building Name
+affiliateSignUp.form.businessAddressLine1=Address Line 1
+affiliateSignUp.form.businessAddressLine2=Address Line 2
+affiliateSignUp.form.businessTown=City
+affiliateSignUp.form.businessRegion=Region
+affiliateSignUp.form.businessStateCounty=State/County
+affiliateSignUp.form.businessPostCode=Postcode
+affiliateSignUp.form.businessCountry=Country
+affiliateSignUp.form.businessFax=Fax
+affiliateSignUp.form.businessTelephone=Telephone
+
+affiliateSignUp.form.email=Email/Username
+affiliateSignUp.form.password=Password
+affiliateSignUp.form.confirmPassword=Confirm Password
+affiliateSignUp.form.securityQuestion=Security Question
+affiliateSignUp.form.securityAnswer=Security Answer
+affiliateSignUp.form.websiteURL=Website URL
+affiliateSignUp.form.description=Descriptionerchantsignup.form.error.email.required=Please enter your email
+merchantsignup.form.error.email.invalid=Invalid email address format
+merchantsignup.form.error.subject.required=Pleas
+
+affiliateSignUp.form.billingCompanyName=Company Name
+affiliateSignUp.form.billingContactName=Contact Name
+affiliateSignUp.form.billingBuildingName=Building Name
+affiliateSignUp.form.billingAddressLine1=Address Line 1
+affiliateSignUp.form.billingAddressLine2=Address Line 2
+affiliateSignUp.form.billingTown=City
+affiliateSignUp.form.billingRegion=Region
+affiliateSignUp.form.billingStateCounty=State/County
+affiliateSignUp.form.billingPostCode=Postcode
+affiliateSignUp.form.billingCountry=Country
+
+affiliateSignUp.form.vatRegistered=VAT Registered
+affiliateSignUp.form.vatRegisteredNumber=VAT Registered No.
+affiliateSignUp.form.payment.option=Payment Option
+affiliateSignUp.form.payment.bankTransfer=Bank transfer
+affiliateSignUp.form.payment.cheque=Cheque
+affiliateSignUp.form.payment.payable=Payable
+affiliateSignUp.form.payment.bankName=Bank Name
+affiliateSignUp.form.payment.accountName=Account Name
+affiliateSignUp.form.payment.bankSortCode=Bank Sort Code
+affiliateSignUp.form.payment.bankAccountNumber=Bank Account No.
+affiliateSignUp.form.payment.threashold=Payment Threashold
+
+affiliateSignUp.form.error.companyName.required=Company Name is required
+affiliateSignUp.form.error.companyName.minlength=Company Name is too short
+affiliateSignUp.form.error.businessContactName.required=Name is required
+affiliateSignUp.form.error.businessAddressLine1.required=Address Line 1 is required
+affiliateSignUp.form.error.businessTown.required=City is required
+affiliateSignUp.form.error.businessPostCode.required=Postcode is required
+affiliateSignUp.form.error.businessPostCode.maxlength=Postcode should not have more than 8 characters
+affiliateSignUp.form.error.businessCountry.required=Country is required
+affiliateSignUp.form.error.businessFax.number=Fax must be a number
+affiliateSignUp.form.error.businessTelephone.required=Telephone is required
+affiliateSignUp.form.error.businessTelephone.number=Telephone must be a number
+
+affiliateSignUp.form.error.email.required=Email is required
+affiliateSignUp.form.error.email.invalid=Email is invalid
+affiliateSignUp.form.error.email.duplicate=Email exists, please change to a different one
+affiliateSignUp.form.error.password.required=Password is required
+affiliateSignUp.form.error.password.minlength=Password should have at least 6 characters
+affiliateSignUp.form.error.confirmPassword.required=Confirm Password is required
+affiliateSignUp.form.error.confirmPassword.equalTo=Password should be consistent
+affiliateSignUp.form.error.securityQuestion.required=Security Question is required
+affiliateSignUp.form.error.securityAnswer.required=Security Answer is required
+affiliateSignUp.form.error.websiteURL.required=Website URL is required
+affiliateSignUp.form.error.websiteURL.invalid=Website URL is invalid
+affiliateSignUp.form.error.description.maxlength=Description is too long. Please limit to 250 characters
+
+affiliateSignUp.form.error.billingCompanyName.required=Billing Company Name is required
+affiliateSignUp.form.error.billingCompanyName.minlength=Billing Company Name is too short
+affiliateSignUp.form.error.billingContactName.required=Billing Contact Name is required
+affiliateSignUp.form.error.billingAddressLine1.required=Billing Address Line 1 is required
+affiliateSignUp.form.error.billingTown.required=Billing City is required
+affiliateSignUp.form.error.billingPostCode.required=Billing Postcode is required
+affiliateSignUp.form.error.billingPostCode.maxlength=Billing Postcode should not have more than 8 characters
+affiliateSignUp.form.error.billingCountry.required=Billing Country is required
+
+affiliateSignUp.form.error.vatRegisteredNumber.required=VAT Registered No. is required
+affiliateSignUp.form.error.vatRegisteredNumber.number=VAT Registered No. must be a number
+affiliateSignUp.form.error.payment.payable.required=Payable is required
+affiliateSignUp.form.error.payment.bankName.required=Bank Name is required
+affiliateSignUp.form.error.payment.accountName.required=Account Name is required
+affiliateSignUp.form.error.payment.bankSortCode.required=Bank Sort Code is required
+affiliateSignUp.form.error.payment.bankSortCode.number=Bank Sort Code must be a number
+affiliateSignUp.form.error.payment.bankAccountNumber.required=Bank Account No. is required
+affiliateSignUp.form.error.payment.bankAccountNumber.number=Bank Account No. must be number
+
+affiliateSignUp.form.agree=I agree to all the above conditions
+affiliateSignUp.form.error.conditionAgreed=Please agree terms and conditions
+affiliateSignUp.form.verificationCode=Enter Code
+affiliateSignUp.form.error.verificationCode.required=Verification Code is required
+affiliateSignUp.form.agreeTerms=By clicking submit you are agreeing to all the above conditions.
+
+affiliateSignUp.success.title=Affiliate Registration
+affiliateSignUp.success.message=Thank you for registering with TAG. You will recieve an email shortly and will be required to confirm your email address before you can login.
+
+affiliateSignUp.emailConfirm.success.title=Affiliate email confirmed!
+affiliateSignUp.emailConfirm.success.message=Thank you for confirming your email address. You can now login to your account.
+
+
+# The error messages for the Validation Actions
+errors.positive={0} must be a positive number.
+errors.required={0} is required.
+errors.byte={0} must be a byte.
+errors.short={0} must be a short.
+errors.integer={0} must be an integer.
+errors.long={0} must be a long.
+errors.float={0} must be a float.
+errors.double={0} must be a double.
+errors.email={0} is an invalid e-mail address.
+errors.date=The date {0} should be in the format 'dd/MM/yyyy'
+errors.url={0} is an invalid URL address.
+errors.maxLength={0} can not be greater than {1} characters.
+errors.minLength={0} can not be less than {1} characters.
+errors.creditCard={0} is not a valid credit card number.
+errors.intRange={0} is not in the range {1} through {2}.
+errors.doubleRange={0} is not in the range {1} through {2}.
+errors.floatRange={0} is not in the range {1} through {2}.
+errors.mask={0} is invalid.
+errors.twoFields=The {0} field has to have the same value as the {1} field.
+errors.invalid={0} is invalid.
+errors.decimal={0} has a maximum of {1} digits after the . and have a total number {2} digits.
+
+
+# The formatted names of the properties of validator
+affiliateSignupForm.companyName.displayName=Company Name
+affiliateSignupForm.contactName.displayName=Contact Name
+affiliateSignupForm.businessAddressLine1.displayName=Address Line 1
+affiliateSignupForm.businessPostCode.displayName=Postcode
+affiliateSignupForm.businessCountry.displayName=Country
+affiliateSignupForm.telephone.displayName=Telephone
+affiliateSignupForm.email.displayName=Email/Username
+affiliateSignupForm.password.displayName=Password
+affiliateSignupForm.confirmPassword.displayName=Confirm Password
+affiliateSignupForm.securityQuestionType.displayName=Security Question
+affiliateSignupForm.securityAnswer.displayName=Security Answer
+affiliateSignupForm.websiteURL.displayName=Website URL
+affiliateSignupForm.specialRequirements.displayName=Description
+affiliateSignupForm.billingCompanyName.displayName=Billing Company Name
+affiliateSignupForm.billingContactName.displayName=Billing Contact Name
+affiliateSignupForm.billingAdressLine1.displayName=Billing Address Line 1
+affiliateSignupForm.billingPostCode.displayName=Billing Postcode
+affiliateSignupForm.billingCountry.displayName=Billing Country
+affiliateSignupForm.vatRegisteredNo.displayName=VAT Registered Number
+affiliateSignupForm.paymentOption.displayName=Payment Option
+affiliateSignupForm.payable.displayName=Payable
+affiliateSignupForm.bankName.displayName=Bank Name
+affiliateSignupForm.accountName.displayName=Account Name
+affiliateSignupForm.bankSortCode.displayName=Bank Sort Code
+affiliateSignupForm.bankAccountNumber.displayName=Bank Account Number
+
+merchantEnquireForm.surname.displayName=Surname
+merchantEnquireForm.name.displayName=Name
+merchantEnquireForm.jobTitle.displayName=Job Title
+merchantEnquireForm.phone.displayName=Phone Number
+merchantEnquireForm.email.displayName=Email Address
+merchantEnquireForm.subject.displayName=Subject
+merchantEnquireForm.enquiry.displayName=Enquiry
+
+contactUsForm.name.displayName=Name
+contactUsForm.email.displayName=Email Address
+contactUsForm.subject.displayName=Subject
+contactUsForm.enquiry.displayName=Enquiry
+## End
+
+#Merchant Menu contents
+merchant.menu.merchantHome=Merchant Home
+merchant.menu.myPrograms=My Programs
+merchant.menu.myAffiliates=My Affiliates
+merchant.menu.reporting=Reporting
+merchant.menu.reporting.standard=Standard
+merchant.menu.reporting.affiliate=Affiliate
+merchant.menu.reporting.transaction=Transaction
+merchant.menu.reporting.creative=Creative
+merchant.menu.helpSupport=Help & Support
+merchant.menu.helpSupport.contactUs=Contact Us
+merchant.menu.myAccount=My Account
+merchant.menu.myAccount.summary=Summary
+merchant.menu.myAccount.billing=Billing
+merchant.menu.myAccount.invoices=Invoices
+merchant.menu.myAccount.balance=Balance
+merchant.menu.logout=Logout
+
+# Common Strings
+common.loading=Loading...
+common.recordsPerPage=Records Per Page
+
+common.msg.welcome=Welcome {0}
+
+common.msg.copyToClipboard=Copied text to clipboard
+
+common.vat=VAT
+common.vat.registered=VAT Registered
+common.vat.number=VAT Number
+
+#Account summary
+common.accountSummary=Account Summary
+common.resultsSummary=Results Summary
+common.today=Today
+common.clicks=Clicks
+common.sales=Sales
+common.salesValue=Sales Value
+common.revenue=Revenue
+common.commissionValue=Commission Value
+common.pendingAffiliates=Pending Affiliates
+
+common.alerts=Alerts
+common.alerts.passwordReset=Please reset your password!
+common.alerts.unpaidInvoice=You have {0} Unpaid Invoices!
+
+common.msg.assistanceContactUs=Should you require any assistance, please <a href="{0}">contact us</a>.
+
+common.reports=Reports
+common.select.program=Select Program
+common.select.period=Select Period
+common.select.all=All
+common.details=Details
+common.display=Display
+common.update=Update
+common.disable=Disable
+
+
+#Common Report Periods
+common.period.today=Today
+common.period.yesterday=Yesterday
+common.period.thisWeek=This Week
+common.period.lastWeek=Last Week
+common.period.thisMonth=This Month
+common.period.lastMonth=Last Month
+common.period.thisYear=This Year
+common.period.lastYear=Last Year
+common.period.customise=Customise
+common.period.allTime=All Time
+
+#Common paging 
+common.paging.pageNo=Page {0} of {1}
+common.paging.previous=Previous
+common.paging.next=Next
+common.paging.first=&laquo;
+common.paging.last=&raquo;
+common.paging.previous.linkTitle=Go to Previous page
+common.paging.next.linkTitle=Go to Next page
+common.paging.first.linkTitle=Go to First page
+common.paging.last.linkTitle=Go to Last page
+common.paging.goToPage.linkTitle=Go to page {0}
+
+#Common export
+common.export.csv=CSV
+common.export.excel=Excel
+common.export.pdf=PDF
+common.export.rtf=RTF
+
+#Do not change the case of message key as it is used in java code
+common.commissionType.0=Percentage
+common.commissionType.1=Flat rate
+
+#Merchant Homepage contents
+merchant.homepage.pageTitle=Merchant Homepage
+merchant.homepage.title=Merchant Homepage
+
+merchant.topAffiliates=Top Affiliates
+merchant.topAffiliates.aid=AID
+merchant.topAffiliates.affiliateName=Affiliate Name
+merchant.topAffiliates.salesCount=No. Sales
+merchant.topAffiliates.noAffiliates=No Affiliates.
+
+merchant.transactions=Transactions
+merchant.transactions.aid=AID
+merchant.transactions.affiliate=Affiliate
+merchant.transactions.dateTime=Date/Time
+merchant.transactions.orderValue=Order Value
+merchant.transactions.noTransactionsToday=No transactions for today.
+
+#Merchant View Invoice page content
+merchant.viewInvoice.title=Merchant Invoice
+merchant.viewInvoice.merchantInvoiceNumber=Merchant Invoice Number
+
+#Merchant Programs page content
+merchant.merchantPrograms.pageTitle=Merchant Programs
+merchant.merchantPrograms.title=Merchant Programs
+merchant.merchantPrograms.table.title=Program list
+merchant.merchantPrograms.table.col.progName=Program Name
+merchant.merchantPrograms.table.col.category=Category
+merchant.merchantPrograms.table.col.commRate=Commission Rate
+merchant.merchantPrograms.table.col.cookieDuration=Cookie Duration
+merchant.merchantPrograms.table.empty=No available programs.
+
+#Program details Menu
+programDetails.menu.title=Program Details
+programDetails.menu.program=Program
+programDetails.menu.creative=Creative
+programDetails.menu.activeAffiliates=Active Affiliates
+programDetails.menu.pendingAffiliates=Pending Affiliates
+programDetails.menu.rejectedAffiliates=Rejected Affiliates
+programDetails.menu.pendingSales=Pending Sales
+
+
+#Merchant Program details page content
+merchant.programDetails.pageTitle= Merchant Program Details
+merchant.programDetails.title= Program Details
+
+programDetails.title= Program Details - {0}
+programDetails.programId=Program Id
+programDetails.programName=Program Name
+programDetails.programDescription=Program Description
+programDetails.programLandingURL=Program Landing URL
+programDetails.merchantName=Merchant Name
+programDetails.merchantDescription=Merchant Description
+programDetails.category=Category
+programDetails.cookieDuration=Cookie Duration
+programDetails.days=days
+programDetails.commissionType=Commission Type
+programDetails.commissionTier=Commission Label
+programDetails.commissionRate=Commission Rate
+programDetails.termsAndCondition=Terms And Condition
+programDetails.currentPromotion=Current Promotion
+programDetails.policyRestriction=Policy Restriction
+programDetails.confirmationCode=Confirmation Code
+programDetails.newCommissionTier=New Commission Label
+programDetails.newCommissionRate=New Commission Rate
+programDetails.useRIDTracking=Use RID Tracking
+programDetails.affiliateAvailability=Affiliate Availability
+
+programDetails.noPromotions=Currently no promotions runnning
+programDetails.error.commissionTier.empty=Commission Label can not be blank.
+programDetails.error.newCommissionTier.empty=New Commission Label can not be blank.
+programDetails.error.newCommissionTier.notNumber=New Commission Rate must be number.
+
+programDetails.button.copyConfirmation=Copy confirmation code to clipboard
+
+program.affiliateAvailability.visible=Visible
+program.affiliateAvailability.hidden=Hidden
+
+#Merchant Program creatives page content
+merchant.programCreatives.pageTitle=Merchant Program Creatives
+merchant.programCreatives.title=Program Creative Details
+merchant.programCreatives.table.title={0}
+merchant.programCreatives.table.col.creativeName=Creative Name
+merchant.programCreatives.table.col.type=Type
+merchant.programCreatives.table.col.size=Size
+merchant.programCreatives.table.col.status=Status
+merchant.programCreatives.table.empty=No available creatives.
+merchant.programCreatives.button.addCreative=Add New Creative
+
+#Merchant Program active affiliates page content
+merchant.programActiveAff.pageTitle=Merchant Program Active Affiliates
+merchant.programActiveAff.title=Program Active Affiliates
+merchant.programActiveAff.table.title={0}
+merchant.programActiveAff.table.empty=No active affiliates.
+
+#common merchant program affiliate table list
+merchant.programAffiliate.table.col.affiliateName=Affiliate Name
+merchant.programAffiliate.table.col.website=Website
+merchant.programAffiliate.table.col.status=Status
+merchant.programAffiliate.table.col.commTier=Comm Label
+merchant.programAffiliate.table.col.commRate=Comm Rate
+merchant.programAffiliate.table.col.rejectionReason=Rejection Reason
+merchant.programAffiliate.table.col.approveAll=Approve<br />All
+merchant.programAffiliate.table.col.rejectAll=Reject<br />All
+merchant.programAffiliate.table.col.programName=Program Name
+
+merchantProgram.affiliateStatus.live=Live
+merchantProgram.affiliateStatus.reject=Reject
+merchantProgram.affiliateStatus.reinstate=Re-instate
+
+#Merchant Program pending affiliates page content
+merchant.programPendingAff.pageTitle=Merchant Program Pending Affiliates
+merchant.programPendingAff.title=Program Pending Affiliates
+merchant.programPendingAff.table.title={0}
+merchant.programPendingAff.table.empty=No pending affiliates.
+
+#Merchant Program rejected affiliates page content
+merchant.programRejectedAff.pageTitle=Merchant Program Rejected Affiliates
+merchant.programRejectedAff.title=Program Rejected Affiliates
+merchant.programRejectedAff.table.title={0}
+merchant.programRejectedAff.table.empty=No rejected affiliates.
+
+#Merchant Program pending sales page content
+merchant.programPendingSales.pageTitle=Merchant Program Pending Sales
+merchant.programPendingSales.title=Program Pending Sales
+merchant.programPendingSales.table.title={0}
+merchant.programPendingSales.table.empty=No pending sales.
+
+#Merchant Affiliates page content
+merchant.affiliates.pageTitle=Merchant Affiliates
+merchant.affiliates.title=My Affiliates
+merchant.affiliates.table.title=Affiliates
+merchant.affiliates.table.empty=No affiliates.
+
+
+#common merchant program sales table list
+merchant.programSales.table.col.affiliateName=Affiliate<br/>Name
+merchant.programSales.table.col.websites=Websites
+merchant.programSales.table.col.orderDate=Order<br/>Date
+merchant.programSales.table.col.orderID=Order ID
+merchant.programSales.table.col.orderValue=Order<br/>Value
+merchant.programSales.table.col.affiliateRate=Affiliate<br/>Rate
+merchant.programSales.table.col.affiliateComm=Affiliate<br/>Comm
+merchant.programSales.table.col.networkRate=Network<br/>Rate
+merchant.programSales.table.col.networkComm=Network<br/>Comm
+merchant.programSales.table.col.approveAll=Approve<br/>All
+merchant.programSales.table.col.rejectAll=Reject<br/>All
+
+
+#Affiliate View Invoice page content
+affiliate.viewInvoice.title=Affiliate Invoice
+affiliate.viewInvoice.affiliateInvoiceNumber=Affiliate Invoice Number
+
+##B2B specific
+b2b.admin="H. RIDDHESH & CO."
+
+
+##memo
+b2b.memo.top=|| SHREE GANESHAYA NAMAH ||
+b2b.memo.top.font=10
+
+b2b.memo.table.top=|| JAI MATA DI ||
+b2b.memo.top.font=10
+
+b2b.memo.table.bottom=|| HARE KRISHNA ||
+b2b.memo.top.font=10
+
+
+b2b.memo.address=111/A RATANDEEP BLDG., 76/78, J. S. S. ROAD,  OPERA HOUSE,  MUMBAI  400004 (INDIA) <br/> Email : info@hrcdiamonds.com | Tele : 2361126/23666294/9264 | Fax : 23611127 <br/> Mob : 9322229903/9820096955
+b2b.memo.address=116, Gordhandas Bldg, 2nd floor, R No - 33, J.S.S Marg, Girgaum Road, Near Central Cinema, Mumbai - 400 004 Tel:- 2366 8470, 2387 8520,  QBC-23668470 
+b2b.memo.notice=<strong>The Goods Mentioned Overleaf are Received by me for</strong><br/> \
+        <strong>The following purpose and on the following condition.</strong><br/>\
+		1. The goods have been entrusted to me for the sole purpose of being shown to intending exporters.<br/>\
+		2. The goods remain your property and i acquire no right or interest they are meant only for inspection and if approved the goods will be exported by you to the buyer or his agent<br/>\
+		3. The goods are to be returned to you forthwith whenever demanded back<br/>\
+		4. The Goods will be at my risk and I am responsible for you for the return of the said goods in the same condition as I have received the same.<br/>\ 
+b2b.memo.ack=<strong>ACKNOWLEDGEMENT OF ENTRUSTMENT</strong><br/>I HEREBY ACKNOWLEDGE RECEIPT OF THE FOLLOWING GOODS WHICH YOU HAVE ENTRUSTED TO ME AND WHICH I HOLD IN TRUST FOR YOU 
+
+b2b.companyname.font=14px
+
+##INVOICE
+b2b.companyname=MMK ENTERPRISES
+b2b.companyname.prefix=M/S
+b2b.company.tagline=
+b2b.company.profile=
+b2b.invoice.country=INDIA
+#b2b.invoice.country=INDIA
+b2b.invoice.bankDtl=<strong>OUR BANKERS:<br/>INDUSIND BANK<br/>	OPERA HOUSE, MUMBAI 400004.</strong>
+b2b.invoice.payment.instruction=PLEASE CREDIT PROCEEDS IN USD TO THE BANK OF NEW YORK,NEW YORK U.S.A.<BR/>\
+SWIFT CODE IRVTUS3N ABA ROUTING NO: 021000018 FOR CREDIT OF A/C NO: 8900444096<BR/>FOR FURTHER CREDIT TO A/C. M/S H. RIDDHESH &amp; CO.WITH MUMBAI BRANCH<BR/>CURRENT A/C NO: 001-CA0983-050
+
+b2b.invoice.note=DOOR TO DOOR INSURANCE COVERED BY {0}<br/>PLEASE DO NOT WAVE CHARGES<br/>ALL CHARGES OUTSIDE INDIA ARE TO BE A/C OF DRAWEE
+b2b.invoice.confirmnote=On Confirmed Outright sale basis
+b2b.invoice.declaration=Declaration: PAN : AACFH3419C <br/>We declare that this invoice shows the actual price of the goods described and that all particulars are true and correct.
+b2b.invoice.selfAdd=111/A RATANDEEP BLDG.,<br/> 76/78, J. S. S. ROAD, OPERA HOUSE,<br/> MUMBAI 400004 (INDIA)
+b2b.invoice.contact=Email : info@hrcdiamonds.com <br/> Tele : 2361126/23666294/9264 | Fax : 23611127
+b2b.invoice.cellno=Mob : 9322229903/9820096955
+b2b.invoice.note=The diamonds herein invoiced have been purchased from legitimate sources not involved in funding conflict and in compliance with United Nations resolutions the seller hereby guarantees that these diamonds are conflict free based on personal knowledge and/or written guarantees provides by the supplier of these diamonds.
+   
+##LOCAL INVOICE
+b2b.local.companyname=MMK ENTERPRISES
+b2b.local.company.tagline=MANUFACTURERS, EXPORTERS, IMPORTERS OF DIAMONDS
+b2b.local.company.invoicetype=<b>TAX INVOICE</b>
+b2b.local.company.through=THROUGH:
+b2b.local.company.phoneno=TEL	: +91-22-2387 7317<br/>FAX	: +91-22-2363 8520
+b2b.local.company.address=OFFICE:<br/>116, GORDHANDAS BLDG,<br/>2ND FLOOR, R. NO. 33,<br/>J.S.S. MARG, GIRGAUM ROAD,<br/>NEAR CENTRAL CINEMA,<br/>MUMBAI - 400 004 INDIA
+b2b.local.company.confirmnote=I CONFIRM HAVING THE<br/>ABOVE GOODS IN <br/>GOOD ORDER
+b2b.local.company.declaration=I/WE HEREBY CERTIFY THAT MY/OUR REGISTRATION CERTIFICATION UNDER THE MAHARASHTRA STATE ACT 2005 \
+IS IN FORCE ON THE DATE ON WHICH SALE OF THE GOODS SPECIFIED ON THE BILL/CASH MEMORANDUM IS MADE BY ME/US AND THAT\
+ THE TRANSACTION OF THE SALE COVERED BY THIS BILL/CASH MEMORANDUM HAS BEEN AFFECTED BY ME/US IN THE REGULAR COURSE OF OUR BUSINESS.
+b2b.local.company.cstvat=VAT TIN 27490570766V W.E.F. 18/OCT/2006<br/>CST TIN 27490570766C W.E.F. 18/OCT/2006
+b2b.local.company.against=AGAINST FORM NO. H<br/>GOODS SOLD AND DELIVERED AT MUMBAI	=======
+b2b.invoice.note=The diamonds herein invoiced have been purchased from llegitimate sources not involed in funcing conflict and in complience with united Nations resolutions the seller hereby guarantes that these diamonds are conflict free based on personal knowledge and/or written huarantees provides by the supplier of these diamonds.
+
+# profit loss
+prof.common.Util.Menu=Profit & Loss Drilldown
+prof.common.Util.From=From:
+prof.common.Util.To=To:
+prof.common.Util.compareTo=Compare To:
+prof.common.Util.dimension=Dimension:
+prof.common.Util.select=--Select--
+prof.common.Util.income=Income
+prof.common.Util.cost=Cost
+prof.common.Util.groupAccountName=Group/AccountName
+prof.common.Util.period=Period
+prof.common.Util.accumulated=Accumulated
+prof.common.Util.achieved=Achieved%
+prof.common.Util.totalincome=Total Income
+prof.common.Util.totalCost=Total Cost
+prof.common.Util.calculatedReturn=Calculated Return 
+prof.common.Util.salesRevenue=1. Sales Revenue
+prof.common.Util.otherRevenues=2. Others Revenue  
+prof.common.Util.goodSolds=Cost of Goods Sold
+prof.common.Util.generalExpenses=General and Administrative Expenses 
+prof.common.Util.partyName=Party Name:
+prof.common.Util.date=Date
+prof.common.Util.dueDate=Due Date
+prof.common.Util.cts=Cts
+prof.common.Util.soldCts=Sold Cts
+prof.common.Util.amount=Amount(Cost price)
+prof.common.Util.expenses=Expenses
+prof.common.Util.sold=Sold(Selling price)
+prof.common.Util.profit=Profit
+prof.common.Util.symbol=%
+prof.common.Util.partyName=Party Name:
+prof.common.Util.pktcode=PacketCode
+prof.common.Util.purchaseId=PurchaseId
+prof.common.Util.customerBal=Customer Balance Report
+prof.common.Util.suppBal=Supplier Balance Report
+prof.common.Util.paymentReport= Payment Report
+prof.common.Util.taxReport = Tax Report
+prof.common.Util.brokerageReport = Brokerage Report
+prof.common.Util.balanceSheet = Balance Sheet
+prof.common.Util.startDate=Start Date :
+prof.common.Util.endDate=End Date :
+prof.common.Util.customer=Customer Name :
+prof.common.Util.currencyFilter=Currency Filter :
+prof.common.Util.suppressZero= Suppress Zeros : 
+prof.common.Util.comments=Comments :
+prof.common.Util.destination=Destination :
+prof.common.Util.branch= Branch :
+prof.common.Util.totalBalance= Total Balance :
+prof.common.Util.total= Total
+prof.common.Util.supplierName=Supplier Name :
+prof.common.Util.noValue= Currently data is not available based on above criteria. Please Select another one.
+prof.common.Util.assest= Assets
+prof.common.Util.totalAssest= Total Assets
+prof.common.Util.liabilities=Liabilities
+prof.common.Util.totalLiabilities= Total Liabilities
+prof.common.Util.sale=Sales
+prof.common.Util.totalSale= Total Sales
+#sales
+projectile.sales.memo=<h3>SALES</h3></br></br>This is the sale performing area and divided into 4 sub tabs namely  - </br><b>Memo</b></br><b>Sale Mix</b></br><b>Memo List</b></br><b>Web Memo</b></br><b>Barcode</b></br>Before we start “The Grid” is explained with its pertaining fields below:-</br></br><b>The Grid</b></br></br>The square action box will be used across majorly all forms. This programmable box or the action grid will show stock in the sales form, Other Usable Features are:-</br>Click the names of the columns on the Grid to  sort it from Lowest  - Highest or Higher – Lower Stock is loaded in Pagewise Format Stock selected will persist page wise. Eg – If you select 2 stones from page 1 and 2 stone from page 2 all will be selected when you make a memo. You can view your selection too page wise.There are 8 fields in the Grid:-</br><u>Buyer </u>– Double click in the buyer field will open the dropdown menu of Buyers to select the buyer.   User can also type the initial of the buyer and registered buyers with those initials will populate in the dropdown. Use the ADD link next to the field to directly enter the buyer details from there.</br>Also you will find the Report and Deposit links which are :-</br><u>Report </u>– After selecting the party click the link  and you can directly view the transactions you have had with them for the current financial year. </br><u>Deposit</u> – This Shortcut allows you to directly go to the Receivables form wherein you can enter their PDC&apos;s  - Post Dated Cheques or by any other mode. You will also find the PAYMENT REPORT link on the top wherein you can check the payment history of the respective client, cheques cleared, cash remitted etc</br><u>Broker</u> – The selected broker for a particular Buyer will come as default, you can select from dropdown. Use the ADD link next to the field to directly enter the buyer details from there.</br><u>Memo Date</u> – Default date pattern – DD-MM-/YY format, This will select current date as default, you can select the date by using Single Click which will open a calender to select the image.</br><u>Brokerage</u> – You can add the percentage of Brokerage directly from here. </br><u>Due Date</u> – Default date pattern – DD-MM-/YY format . Default Memo date will be 3 days from creation of Memo, this can also be changed using the Date Picker.</br><u>Days</u> – Credit  Days can be entered from here.</br><u>Ex. Rate</u> – The field will show the prevailing Exchange Rate of the Alternate or Local currency, ofcourse this will be editable</br><u>Term</u> – This shows list of terms that you have made. With the selection of the buyer the term selected for the buyer will be selected automatically with their price calculation, however you can dynamically change the term and the price will be changed Auto. You can select different terms for different deals.</br><u>Local / Export Radio Buttons</u>: - You can Togle between currencies for each individual deal as per the requirement of the client, default will be selected.</br><b>THE GRID FEATURES</b>:-</br></br>The column names in the Grid can be used for sorting stock, ascending or descendingArrangement of columns can be changed, just drag the column to where you or beside the column name you would like it to beThe strip above the column name will show the packets selected as a link.</br></br><b>MEMO FORM / SALES FORM / JANGAD FORM</b></br></br>Inside the Memo Form you will find 2 main buttons with Opne – Close menu types on extreme sides which are explained before to know exactly how to use the form with their multiple features:-</br><b>SEARCH </b>button</br>This BUTTON on the top left hand corner contains a full fledged search engine for stock  and the following options:-</br>Search stock of  offices at different location  - Party (Dropdown). Users other than Admin will only be able to see stock but cannot perform any action.Search with memo number, multiple memos can be searched by separating them through commas (,) - Memo NosSearch via particular packet number – Pkt NosSearch Via Rough Number, clicking this checkbox and entering the rough number will list all the polished stones made from thar particular Rough pk – use checkbox  - - - - -Rough(Root) and press search</br><b>SEARCH ENGINE</b></br>Search Engine – This comprehensive, multi-select search engine will allow you to precisely search stock and narrow it down as per client requirement.</br>FNC – Fancy Color Search, This will search for Fancy Colored stones in your stock. Click the checkbox and fancy colored fields will appear at the bottom of the search engine.vOnly Pairs – Using this checkbox will display the pairs in your stock.</br>Reset – This button will refresh the entered stock criteria in the search engine.</br>Add Criteria – For multiple types of stones to be entered into memo, Using the Add Criteria button will refresh the stock and new criteria can be entered, selected stock will persist and you can select the stock as per the new criteria and add to the existing selected stock for memo.</br><b>SEARCH ENGINE RULES</b></br>Search Stock after selecting the Buyer everytime. This will show the stock as per their terms decided, Terms can be changed and stock will be changed dynamically.Select Checkboxes next to the Packet Number for making memo (jangad), other details can be added like Broker, Due DateEx – Rate – This Field is used to have an additional Rate column in local currency used for transactions. This will appear next to the US Dollar rate column.Using the search button without selecting the buyer will populate the stock as per asking price rates.The Rates will be shown in US Dollars default</br><b>ACTION</b></br>This button on the top right corner is used for next course of action after the stock is selected.</br>This has 6 Fields namely:-</br><u>Select Type </u>– From the Drop Down select the type of memo you want to make Internal View(Not confirmed, only for viewing in other office physically), Confirm (Ready To Buy), Certification (sent for Gia, IGI etc), Laser Inscription(Send for inscribing laser), Transfer(Transfered to other Branch)</br><u>Contact Person</u> – Name of the Contact Person Taking the stock & Jangad (optional)Comments – Any special comments that you would like to ass with the Memo (Jangad) MadeCreate Memo – This will Generate the memo in Pdf Format with a Browser pop – up, You will have to click Open With option (Never use the Save option)Packet Return</br><u>Export Format</u> – From here you can download the stock XL file in the output created formats. Select the Format you want to download the stock in and Press Export XLS Button</br><u>E-Mail Field </u>– You can enter the e-mail id&apos;s you would like to mail your stock to here, This is below the Export Format Field. You can add as many ID&apos;s you want using (,) comma separation and system will sent personalized mail to all of them 1 by one, so they don&apos;t enter spam.</br><u>Add Rapnet Discount Column</u> – This is a feature to let system add Rapnet Discount to the Downloading or Mailing xl file in the Format you require.</br></br>SALES FORM - SUBTABS</br><b>Memo </b></br>This form will make memo&apos;s as per Buyers terms and other Editable Details (Refer Search Engine Rules)Selecting the Buyer from the field, just press teh down arrow when the field is selected and whole buyer list will appear as a drop down from which you can scroll and select the buyer.The terms given to them will be automatically populated, with the broker (if any)Automatically the stock will be shown when the buyer is selected You can Select Packets.Total Selected Packets will be shown in RED LINK in the topmost section of the grid nex to the word “Stock”. You can press the “Shown All” to see the selections or &apos;Clear All&apos; to clear the selected stock and start again.
+projectile.sales.memoReport=<b>Memo List</b></br>This will show the memo&apos;s made latest to older in the grid.Select Checkbox to ?</br>There are options for Memo Sorting namely:-</br><u>Stock At </u>– This will show the location of the memo&apos;s made from.</br><u>Memo Status</u> – You can Sort memo&apos;s by their current status Approved, Pending, General and Rejected.</br><u>Memo Type</u> – Sort Memo&apos;s by their generating status Confirm, Request, Laser Inscription etc. Sorting will be done automatically.</br><u>LC/EX</u> – Sort by Local or Export Memo&apos;s.</br><u>From Date / To Date</u> – These Date Pickers can be used to view memo&apos;s made between selected dates.</br><u>Search by Party name </u>– Enter the Party Name to search memo&apos;s made for them.</br><u>Show Overdues</u> – See pending memo&apos;s from a long time.</br><u>Zero Exrate </u>– This shows memo&apos;s made without entering exchange rate.</br><b>Memo List – Grid Functions</b></br></br>Select Checkbox to directly return the Memo.(+) using this sign nect to the checkbox will show the stones that are there on the memo<u>Memo No </u>– This is the number applied to the memo, clicking on the same will reopen the memo as a pdf or separate tab.</br><u>Memo Type </u> will show the type of memo created Confirm, Internal View, Laser Inscription etc.</br><u>Status </u>– Current Status of the Memo.</br><u>Action </u>– This column will show the link of the next action to be taken as per the memo type created, for Eg – If a memo is made fo Internal View (jangad) then next link will be Confirm Memo  or if a Confirm Memo is made then Link will make Invoice.</br><u>Edit </u>– This link in the last column of the grid allows you to edit the memo which opens in a new window. Editable fields will be defined.</br><u>Web Memo </u>– This Tab will show the list of memo&apos;s (jangad) made from the site. Site integrated with the Inventory Management System, you can directly confirm the memo from here .</br>
+projectile.sales.mix=<h3>Sale Mix</h3> <br/> This form is used to make sale for SMALL or THIN goods. On opening you will see a separate search engine in which mostly the parameters use the FROM and TO selection as most of the packets use range as descriptions , some of the provided fields are:-<br/><u>Rate</u> – Search by Rate as required by Buyer.<br/><u>PPC (Pieces Per Carat) </u>– Search by how many pieces of a carat the buyer wants for that particular Color, clarity etc.<br/><u>Total </u>– Search by Total price of the packet.<br/><u>Parcel Type</u> – Search by the what kind of parcel eg – Melee, Star etc.<br/><u>Sieve </u>– The varios of sieves being used can be selected to narrow the kind of goods that the buyer requires.<br/>
+projectile.sales.webMemo=<h3>Web Memo </h3> <br/>This Tab will show the list of memo&apos;s (jangad) made from the site. Site integrated with the Inventory Management System, you can directly confirm the memo from here .</br>
+projectile.sales.barcode=<h3>Barcode</h3> <br/><p>This barcoding integration will generate barcode for the packet entered. With the details the same can be printed on the packet paper for the client to refer the details.</p>
+#purchase
+projectile.purchase.purchase=<h3>PURCHASE</h3></br></br>This is the primary form for entering and Uploading the purchased stock. Default will be the manual upload mode. </br><u>Pkts Insert</u>: - Enter the Number of Packet that you would like to manually enter.</br><u>Select File Format</u> – You can select the file format in which you would like to upload the stones.</br><u>File Upload Mode</u> – Use this button to directly upload the File containing the stock which is mapped into the program. You can use a csv or xls file to map into the system. Just browse, select the parent file and upload into the system.</br></br><b>UPLOAD / EDIT STOCK</b></br>This tab is used for uploading BIG SIZE stock.  </br><u>Vendor ID</u> – This will show the list of vendors from whom you purchase stock. </br><u>Date</u> – For entering the date of the purchase.</br><u>Currency </u>– Select the currency for the transaction.</br><u>Bill NO</u> – Enter the Vendor Bill no.</br><u>Due Date </u>– Enter the date of payment.</br><u>Ex Rate</u> – If you select any other currency than USD, just enter the exchange rate.</br><u>Comments </u>– If any specific comments that you would like to add.</br><u>Payment Type</u> – Cheque / Cash.</br><u>Tax </u>– Enter the numeric value of the percentage here for taxes.</br><u>Expenses </u>– Enter the extra expenses paid for the deal in total.</br>
+projectile.purchase.pending=<b>PENDING STOCK</b></br>All the uploaded stock will first come to this form for approval. From here you can change the editables thing and move it to sales as well Automatically upload to Rapnet.</br><u>Search Engine </u>– There are 4 fields provided to narrow down stock namely – Shape (with multiselect), Cts(carats) from & to, color (with multiselect), clarity (with multiselect).</br><u>Packet Search </u>– Enter the packet number in the field before the search button.</br><u>Upload to Rapnet </u>– Select the checkbox to simultaneously upload to Rapnet while moving to Sales.</br><u>Move to Sales </u>– This button is used when you want to move the stock to sales along with your personal website attached to application. Select the checkboxes in the Sr No column and press the button</br><u>Edit</u> – These links while forward you to the Upload  / Edit form to change or edit properties. Just copy the packet number and paste it in the SOTNE ID column of the edit form and PRESS TAB all the details will be populated Auto.</br><u>Pkt No </u>– Clicking on the Packet Number will open history of that particular packet in a separate form.</br><u>Stock</u> – There are 2 links in stock column namely – Similar, Sold which are use to see Stock which is simlar to this packet properties and sold stock of the same packet respectively.</br><u>Send Mail </u>– This column has the E-mail links to mail this particular packet to all the registered buyer who have or will purchase this kind of stock. This is used primarily for sending mails for a single packet.
+projectile.purchase.invalid=<b>INVALID STOCK</b></br>This form is where all the stock uploaded with invalid parameters will be saved. Largely the links function the same as Pending Form however you can edit the erred parameters, select and MOVE TO SALES.</br>
+projectile.purchase.available=<b>AVAILABLE</b></br>Here you will be able to see the complete stock that is available for sale, the opens up as a report and the actions are provided as links.  </br><u>Search Engine</u> – There are 4 fields provided to narrow down stock namely – Shape (with multiselect), Cts(carats) from & to, color (with multiselect), clarity (with multiselect).</br><u>Packet Search</u> – Enter the packet number in the field before the search button.</br><u>Upload to Rapnet </u>– Select the checkbox to simultaneously upload to Rapnet while moving to Sales.</br><u>Move to Sales </u>– This button is used when you want to move the stock to sales along with your personal website attached to application. Select the checkboxes in the Sr No column and press the button.</br><u>Edit</u> – These links while forward you to the Upload  / Edit form to change or edit properties. Just copy the packet number and paste it in the SOTNE ID column of the edit form and PRESS TAB all the details will be populated Auto.</br><u>Pkt No</u> – Clicking on the Packet Number will open history of that particular packet in a separate form.</br><u>Stock</u> – There are 2 links in stock column namely – Similar, Sold which are use to see Stock which is simlar to this packet properties and sold stock of the same packet respectively.</br><u>Send Mail</u> – This column has the E-mail links to mail this particular packet to all the registered buyer who have or will purchase this kind of stock. This is used primarily for sending mails for a single packet.
+projectile.purchase.mixParcel=<h3>MIX GROUP SMALL</h3></br><b>Description</b></br>This option is for creating Masters for the types of sizes you deal in on a regular basis, as part of your business.</br>Click ADD NEW MIX GROUP  and you will be redirected to the form wherein you will all the relevant details and Submit. Some of the fields are explained below:-</br><u>Parcel Number</u> – Create a unique id or use an existing one for entering the relevant parameters. </br><u>Parcel Type </u>– Select the type of parcel it is Like Star, Melee which ever it belongs to.</br><u>Avg Cts / Pcs </u>– Enter the Carats to that you normally purchase in such a packet.</br><u>Rate</u> – Enter the approximate selling price of these goods for that particular type.</br><u>Root</u> – If Into Manufacturing enter the root packet number for future reference.</br><u>Base Price / Cts</u> – The orignal base price .</br><u>Cost Price  / Cts </u>– The Cost price of such a packet.
+projectile.purchase.stockEntryMix=<b>SMALL UPLOAD</b></br>THIS Form has 3 sub – Tabs Namely</br><u>Parcel Upload</u></br><u>Packet Upload</u></br><u>Fixed Packet</u></br><b>Parcel Upload</b></br>To use this Option you have to create Fixed Packets for them to be distributed into them later on. If you have fixed packet numbers create them first in Fixed Packet Form then use Parcel Upload form.</br>If you purchase bulk parcel which are not assorted and would like to enter it Directly Into the system. You can do from Here, just enter all the required details, including Unique Parcel NumberOnce You press SUBMIT button data will be stored in the system.</br>If you would like to distribute the packets then just Press Distribute Directly button after uploading the parcel.</br>In that you will be able to see the list parcels, select the one and press distribute.</br>Select the Fixed from the Parcel Numbe Drop Down and In the Total carats field, Enter the number of carats you would like to put to that particular packet and so on. </br>Press submit after all carats have been distributed. </br><u>Add New</u> – Use this button if you want more fields.</br>
+projectile.purchase.merge=<b>Small Merge</b></br>This option is given for merging two packets with each other.</br> When you click on the small merge tab,you can see the twoTables of packets. The Packets on the left are packet you want to merge and packets on the right are the packets you want to merge into. So system will catch the packet on the right as merged packet.</br>When you have to merge the packets click the two packets from given options.</br>And press the merge button, a pop-up will apppear asking you if you want to change the Price of the packet, edit if you want to or press submit, Then those packets will get merged.</br>Now there is an option called create new. In this optionYou can create the new small packet with merging of packets.You can merge any number of packets to 1 packet.</br>After you have selected the packets click on Create New button , system will ask you to enter the new packet code and Final Rate.</br>New window will be poped up.in that you will have to enter the final rate and packet number.</br>
+projectile.purchase.split=<b>Small Split</b></br>This button is to split a particular packet into number of small packets.</br>Select the packet you want to split and press split.</br>A pop-up will ask you to enter the no of packets you wna to split it into 1, 2 o4 etc press Ok.</br>A New bigger window will appear wherein the parameters of the parent packet will be pre-loaded.</br>Just enter the new packet codes and change carats, Rate etc and press submit. Split Packets will appear.</br>
+projectile.purchase.lab=<b>LAB</b></br>This form is enter the subsidary lab of a particular packat number for example a particular packet has both GIA & IGI certification, you can both its parameters and select one as default. Use the  ADD NEW button.</br><u>Sr No</u> – The checboxes provided are to select the stock that you would like to move to sales.</br>You can change the default lab of any uploaded stone from here. Just copy and paste the packet in the “Enter the packet no” field and press GO.</br>The existing default parameters will be shown, press the Edit button and all the parameters will be listed in the drop downs, change or edit the ones you want use the default checkbox and press update.</br>The Parameters for the particular packet will be changed.</br>
+projectile.purchase.certUpload=<b>Cert Upload</b> This form is used to upload the certificate which is used later.
+#parties
+projectile.party.party=<h3>PARTIES</h3></br>3 Sub Tabs:</br><b>Party List</b></br><b>Add New Party</b></br><b>Web Users</b></br><b>PARTY LIST </b>– In this list you will see the complete list of parties that you have created and narrow your search with available Filters like:-</br><u>Business Type</u>:- Search Parties with type of business they do Jewelry manufacturer, Jewelry wholesaler etc.</br><u>Company Name</u> – Search by name of the company.</br><u>Party Type</u> – Search Parties as per their identity Buyer, Broker etc.</br><u>Broker Name</u> – Search by Brokers Registered Name.</br><u>Status</u> – Search Parties by Active, Inactive status.</br>
+projectile.party.addParty=<b>ADD NEW PARTY </b></br>To create Own companies or parent concerns, select SELF for Type Field.</br><u>Party Details</u> – This form is used to generate party Accounts, use this common form for all kinds of parties including self. Minimum Mandatory Details with asterisk sign are needed with Trade References.</br><u>Main Office Details</u> – Enter the Head – Office details here.  This will be communication address and if the shipping address of goods is the same then use the COPY BRANCH ADDRESS checkbox.</br><u>Add New Branch</u> – This option is used for entering the additional branches that company might have across the globe with individual terms and Bank account that would take mapyment in.</br>
+projectile.party.webUser=<b>WEB USERS</b></br>This form is activating users who have registered on your website. You will see the new additions in the Company name form.</br><u>Web Account</u> – clicking this icon will open the form for activating  / deactivating the user. Select the terms, activate the party from status field and check if the party if existant in the party dropdown, if not keep create new party and press update buttonThis will create a new party in the PARTY LIST, from there you can add further details if needed.</br>
+#utilities
+projectile.utility.terms=<h3>UTILITIES</h3></br><b>TERMS</b></br>This from is used for creating the terms on which you are going to sell the stock.</br>Going to the form all the generated terms will be shown by default.</br><u>ADD NEW TERM</u> – This is used for adding a new term, clicking on which will open a new form in  the same window.</br>From here you will be able to create fresh terms that will be applicable throughout in the transations carried out. </br><u>Term Name </u>– Name the Term you would like.</br><u>Term Code </u>– Assign a code to the term. This will be visible in all the forms that terms are applicable and will be shown in the dropdown.</br><u>Term Description</u> – Enter some description as to creation of the term.</br> <u>1st, 2nd and 3rd   </u>- Enter the fixed costs that are incurred in every transaction on basis of percentage. Just tenter the number of percentage that you would like to be added.</br><u>% flat commission</u> – This is applicable as to how you apply commission on the sale price. For Eg –  if 2% commission is to be paid to the broker on a selling price of 100 then:-</br><u>1 - 2% applied on 100  is 102</u> – Flat Commission.</br><u>2 - 2% applied on 98 is 99.96</u> – Reducing commission (Uncheck Box % Flat Commission).</br><u>Broker Commission 1st & 2nd </u> - Enter the percentage of commission for first broker and 2nd broker respectively.</br><u>Credit Days</u> – Enter the number of credit day you would like to be applicable for that particular term.</br><u>Rap Discount</u> – Enter the discount of Rapnet prices to be preloaded with the prices. Just enter the figure of dicount in the relevant field.</br>
+projectile.utility.mapping=<b>ADD FILE MAPPING</b></br>This utility is useful in uploading stock at once in Xl or CSV file. Go To Add File Mapping.</br>The name of Header columns in the xl file have be entered into the system. Xl files can be mapped from here. Enter the relevant details for Fields like:-</br><u>File Name </u>– Give a name to the file.</br><u>File Type</u> – Select the Type.</br><u>File Process </u>– Select if this file is being created for Input or Output.</br><u>Rap Format </u>– You can select either pricing of Rapnet which will show as -0.25 or -0.27 as per the  parameters which comes from Rapnet (2nd option or Out of __(ex – 0.25)or can be select from out of 100 or percentage basis ex 25% or 27% back for that select the 1st option (Out of 100 (ex - 25).</br><u>Company  </u>- Enter the Name of the company for which you are mapping the file.</br><u>Lab </u>– If you are mapping a file for a particular lab select from this drop down.</br>In the column beside the button GO enter the nomber of headers or column titles are present in your original file and press go. You will see 4 types of columns originate namely SELECT, COL. INDEX , COLUMN NAME and FILE COLUMN NAME.</br><u>FILE COLUMN NAME </u>– Enter the name of the Header present in the original file here.</br><u>COLUMN NAME </u>– Select the Synonym or names listed by us from the dropdown menu for eg – if a column name “Shape” is present in the original file, then in the dropdown it is mentioned as SH, so write “Shape” in the file column name and select SH from “Column name” and so on. Press submit which will save the file. This is a one time excercise and will allow to upload stock as and when you want.</br><u>COL INDEX </u>– You can activate or deactivate a header from here.</br>
+projectile.utility.addmap=<b>ADD FILE MAPPING</b></br>This utility is useful in uploading stock at once in Xl or CSV file. Go To Add File Mapping.</br>The name of Header columns in the xl file have be entered into the system. Xl files can be mapped from here. Enter the relevant details for Fields like:-</br><u>File Name </u>– Give a name to the file.</br><u>File Type</u> – Select the Type.</br><u>File Process </u>– Select if this file is being created for Input or Output.</br><u>Rap Format </u>– You can select either pricing of Rapnet which will show as -0.25 or -0.27 as per the  parameters which comes from Rapnet (2nd option or Out of __(ex – 0.25)or can be select from out of 100 or percentage basis ex 25% or 27% back for that select the 1st option (Out of 100 (ex - 25).</br><u>Company  </u>- Enter the Name of the company for which you are mapping the file.</br><u>Lab </u>– If you are mapping a file for a particular lab select from this drop down.</br>In the column beside the button GO enter the nomber of headers or column titles are present in your original file and press go. You will see 4 types of columns originate namely SELECT, COL. INDEX , COLUMN NAME and FILE COLUMN NAME.</br><u>FILE COLUMN NAME </u>– Enter the name of the Header present in the original file here.</br><u>COLUMN NAME </u>– Select the Synonym or names listed by us from the dropdown menu for eg – if a column name “Shape” is present in the original file, then in the dropdown it is mentioned as SH, so write “Shape” in the file column name and select SH from “Column name” and so on. Press submit which will save the file. This is a one time excercise and will allow to upload stock as and when you want.</br><u>COL INDEX </u>– You can activate or deactivate a header from here.</br>
+projectile.utility.pwd=<b>CHANGE PASSWORD</b></br>This facility is given for the security reasons</br>Where three fields are given </br>Old Password</br>New Password</br>Re enter password</br><b>PROCEDURE</b></br>This tab is given for changing your acounts password.</br>When you want to change your passwordjust put your old password in the old password spaceThen put your New password in the New passowrd spaceThen again type the New password in Re enter password spaceAnd then click the submit button.your acount password is renewed.</br>
+projectile.utility.user=<b>USER MANAGER</b></br>In this tab you can manager the users.</br>This facility is given for adding and editing the position of the user.</br>By clicking the button Add new user you can add new user in the application.</br>By clicking the edit button you can edit the role(admin manager etc)of the user.</br>Please check the assigned roles and their rights in Role Manager first.</br>
+projectile.utility.role=<b>ROLE MANAGER</b></br>This utility is given for assigning the roles to users.</br>Admin can assign the roles to his co-users in this tab.</br>In this tab you have to select the user from the list.</br>Select the checkbox on the roles which you want to assign from the listExport stock etc.</br>Then click on the save changes tab.</br>Then role will be assigned to that particular user.</br>
+projectile.utility.curr=<b>CURRENCIES</b></br>This Utility is given for Adding, editing  & deleting currencies.</br>Enter the details in their relevant fields.</br><u>Currency Abbreviation</u>: Short Form of the Currency eg  - USD.</br><u>Currency Symbol</u>: $ </br><u>Currency Name</u>: Name of the currency in words eg – United States Dollar - USD .</br><u>Hundredths Name</u>: Enter the short change of the currency eg – Pennies, cents .</br><u>Country</u>: Enter the country the currency belongs to .</br><u>Auto Update</u>: Use the checkbox to auto download the prevailing rates.</br>
+#Account
+projectile.account.pay=Coming Soon
+projectile.account.deposit=Coming Soon
+projectile.account.journal=Coming Soon
+projectile.account.bankTrf=Coming Soon
+projectile.account.glacc=Coming Soon
+projectile.account.glgrp=Coming Soon
+projectile.account.gltyp=Coming Soon
+projectile.account.angadia=Coming Soon
+projectile.account.reports=Coming Soon
+projectile.account.bank=Coming Soon
+projectile.account.rapUserCreation=RapNet Creation
+projectile.purchase.costPrice=Coming Soon
+projectile.purchase.common=Coming Soon
+b2b.pktcode.seq=10000
+b2b.pktcode.auto=Y

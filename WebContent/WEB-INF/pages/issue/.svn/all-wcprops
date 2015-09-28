@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/repos/!svn/ver/411/projectile/WebContent/WEB-INF/pages/issue
+END
+parcelList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/repos/!svn/ver/409/projectile/WebContent/WEB-INF/pages/issue/parcelList.jsp
+END
+masterPrice.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/repos/!svn/ver/377/projectile/WebContent/WEB-INF/pages/issue/masterPrice.jsp
+END
+updateRap .jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repos/!svn/ver/377/projectile/WebContent/WEB-INF/pages/issue/updateRap%20.jsp
+END
+parcel.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/repos/!svn/ver/377/projectile/WebContent/WEB-INF/pages/issue/parcel.jsp
+END
+packetUpload.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repos/!svn/ver/457/projectile/WebContent/WEB-INF/pages/issue/packetUpload.jsp
+END
+parcelDistribute.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/repos/!svn/ver/377/projectile/WebContent/WEB-INF/pages/issue/parcelDistribute.jsp
+END
+parcelUpload.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repos/!svn/ver/377/projectile/WebContent/WEB-INF/pages/issue/parcelUpload.jsp
+END
+othLab.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/repos/!svn/ver/377/projectile/WebContent/WEB-INF/pages/issue/othLab.jsp
+END
+stockEntryChk.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/repos/!svn/ver/377/projectile/WebContent/WEB-INF/pages/issue/stockEntryChk.jsp
+END
+pktBarCodePrint1.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/repos/!svn/ver/377/projectile/WebContent/WEB-INF/pages/issue/pktBarCodePrint1.jsp
+END
+similar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/repos/!svn/ver/409/projectile/WebContent/WEB-INF/pages/issue/similar.jsp
+END
+manPrice.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/repos/!svn/ver/377/projectile/WebContent/WEB-INF/pages/issue/manPrice.jsp
+END
+stockMixEdit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repos/!svn/ver/377/projectile/WebContent/WEB-INF/pages/issue/stockMixEdit.jsp
+END
+othLabRep.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/repos/!svn/ver/377/projectile/WebContent/WEB-INF/pages/issue/othLabRep.jsp
+END
+sold.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/repos/!svn/ver/409/projectile/WebContent/WEB-INF/pages/issue/sold.jsp
+END
+purchaseReport.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/repos/!svn/ver/377/projectile/WebContent/WEB-INF/pages/issue/purchaseReport.jsp
+END
+split.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/repos/!svn/ver/377/projectile/WebContent/WEB-INF/pages/issue/split.jsp
+END
+stockCertUpload.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/repos/!svn/ver/377/projectile/WebContent/WEB-INF/pages/issue/stockCertUpload.jsp
+END
+stockEntry.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/repos/!svn/ver/466/projectile/WebContent/WEB-INF/pages/issue/stockEntry.jsp
+END
+fixedPacket.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/repos/!svn/ver/409/projectile/WebContent/WEB-INF/pages/issue/fixedPacket.jsp
+END
+costPrice.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/repos/!svn/ver/377/projectile/WebContent/WEB-INF/pages/issue/costPrice.jsp
+END
+pktBarcod.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/repos/!svn/ver/445/projectile/WebContent/WEB-INF/pages/issue/pktBarcod.jsp
+END
+pendingStock.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repos/!svn/ver/457/projectile/WebContent/WEB-INF/pages/issue/pendingStock.jsp
+END
+stockEntryMix.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/repos/!svn/ver/377/projectile/WebContent/WEB-INF/pages/issue/stockEntryMix.jsp
+END
+stockSplit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/repos/!svn/ver/377/projectile/WebContent/WEB-INF/pages/issue/stockSplit.jsp
+END
+mergeMix.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/repos/!svn/ver/377/projectile/WebContent/WEB-INF/pages/issue/mergeMix.jsp
+END
+stockMixList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repos/!svn/ver/377/projectile/WebContent/WEB-INF/pages/issue/stockMixList.jsp
+END
+certUpload.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/repos/!svn/ver/436/projectile/WebContent/WEB-INF/pages/issue/certUpload.jsp
+END
+pktBarcodePrint.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/repos/!svn/ver/465/projectile/WebContent/WEB-INF/pages/issue/pktBarcodePrint.jsp
+END

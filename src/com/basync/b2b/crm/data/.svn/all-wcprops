@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/repos/!svn/ver/409/projectile/src/com/basync/b2b/crm/data
+END
+InvoiceMaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/repos/!svn/ver/62/projectile/src/com/basync/b2b/crm/data/InvoiceMaster.java
+END
+CurrencyResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repos/!svn/ver/152/projectile/src/com/basync/b2b/crm/data/CurrencyResult.java
+END
+ParcelMaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/repos/!svn/ver/107/projectile/src/com/basync/b2b/crm/data/ParcelMaster.java
+END
+PurchaseParcel.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repos/!svn/ver/192/projectile/src/com/basync/b2b/crm/data/PurchaseParcel.java
+END
+PurchaseDetailsRowExtract.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/repos/!svn/ver/360/projectile/src/com/basync/b2b/crm/data/PurchaseDetailsRowExtract.java
+END
+QueryCodeDescription.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/repos/!svn/ver/345/projectile/src/com/basync/b2b/crm/data/QueryCodeDescription.java
+END
+Payment.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/repos/!svn/ver/246/projectile/src/com/basync/b2b/crm/data/Payment.java
+END
+PartyAccData.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/repos/!svn/ver/345/projectile/src/com/basync/b2b/crm/data/PartyAccData.java
+END
+ThreeStrings.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/repos/!svn/ver/360/projectile/src/com/basync/b2b/crm/data/ThreeStrings.java
+END
+PurchaseMaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repos/!svn/ver/409/projectile/src/com/basync/b2b/crm/data/PurchaseMaster.java
+END
+GlRepData.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/repos/!svn/ver/360/projectile/src/com/basync/b2b/crm/data/GlRepData.java
+END
+BankAccounts.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/repos/!svn/ver/49/projectile/src/com/basync/b2b/crm/data/BankAccounts.java
+END
+PurchaseDetails.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/repos/!svn/ver/360/projectile/src/com/basync/b2b/crm/data/PurchaseDetails.java
+END
+InvoiceDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/repos/!svn/ver/22/projectile/src/com/basync/b2b/crm/data/InvoiceDetail.java
+END
+FileTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/repos/!svn/ver/192/projectile/src/com/basync/b2b/crm/data/FileTypes.java
+END
+PaymentDetails.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repos/!svn/ver/246/projectile/src/com/basync/b2b/crm/data/PaymentDetails.java
+END
+UserActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/repos/!svn/ver/339/projectile/src/com/basync/b2b/crm/data/UserActivity.java
+END
+AngadiaMaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/repos/!svn/ver/210/projectile/src/com/basync/b2b/crm/data/AngadiaMaster.java
+END
+Dashboard.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/repos/!svn/ver/171/projectile/src/com/basync/b2b/crm/data/Dashboard.java
+END
+PartyMasterData.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/repos/!svn/ver/152/projectile/src/com/basync/b2b/crm/data/PartyMasterData.java
+END
+ProfitLossData.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repos/!svn/ver/192/projectile/src/com/basync/b2b/crm/data/ProfitLossData.java
+END
